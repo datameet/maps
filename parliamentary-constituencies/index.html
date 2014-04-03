@@ -98,17 +98,19 @@
 
         d3.select(window).on("resize", sizeChange);
 
+        //Set d3 scale
         var color_domain = ['GEN','SC','ST'];
         var legend_labels = ['GEN','SC','ST'];
         var color = d3.scale.threshold()
           .domain(color_domain)
           .range(["", "#b2df8a", "#1f78b4","#a6cee3"]);
 
-
+        //Set tooltip
         var div = d3.select("body").append("div")
          .attr("class", "tooltip")
          .style("opacity", 0);
 
+        //Set d3 projection, path and svg
         var projection = d3.geo.mercator()
             .center([78, 27])
             .scale(1200);
@@ -122,17 +124,16 @@
           .attr("height","100%")
           .append("g");
 
-        //NOTE: Because of topology issues in state boundaries in india_pc_2014, using cleaned up state boundaries in india_state_2014
-
+        //Wait for data files to download before drawing
         queue()
           .defer(d3.json, "india_pc_2014_simplified.topojson")
           .defer(d3.json, "india_state_2014_simplified.topojson")
-          .defer(d3.csv, "results.csv")
+          .defer(d3.csv, "results.csv") //sample data
           .await(ready);
 
         function ready(error, pc, state, data) {
 
-          //Set up for visualizing data table
+          //Set up for visualizing sample data
           var pairResultWithId = {};
           var pairNameWithId = {};
           data.forEach(function(d) {
@@ -140,9 +141,8 @@
             pairNameWithId[d.ST_CODE + d.PC_CODE] = d.PC_NAME;
           });
 
+          //Drawing pc boundaries
           var pc_geojson = topojson.feature(pc, pc.objects.india_pc_2014);
-          var state_geojson = topojson.feature(state, state.objects.india_state_2014);
-
           svg.selectAll(".pc")
               .data(pc_geojson.features)
               .enter().append("path")
@@ -169,21 +169,19 @@
                  div.transition().duration(300)
                  .style("opacity", 0);
               })
- ;
+          ;
 
+          //Drawing state boundaries          
+          var state_geojson = topojson.feature(state, state.objects.india_state_2014);
           svg.selectAll(".state")
               .data(state_geojson.features)
               .enter().append("path")
               .attr("class", "state")
               .attr("d", path);
 
-          /*svg.append("path")
-              .datum(topojson.mesh(pc_2014, pc_2014.objects.india_pc_2014, function(a, b) { return a.properties.ST_NAME !== b.properties.ST_NAME; }))
-              .attr("d", path)
-              .attr("class", "state-boundary");*/
         }
 
-
+        //Set up for drawing html legend elements
         var legend = d3.select('.legend-scale')
           .append('ul')
           .attr('class', 'legend-labels');
@@ -198,11 +196,10 @@
           ;
 
 
+        //Function called when window is resized
         function sizeChange() {
           d3.select("g").attr("transform", "scale(" + $("#container").width()/1000 + ")");
           $("svg").height($("#container").width()*0.75);
-
-          console.log($("#container").height());
         }
 
 
