@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+
+    <style type="text/css">
+
+      .pc {
+        fill: #bdbdbd;
+        stroke: #fff;
+        stroke-width: 0.5px;
+      }
+
+      .state {
+        fill: none;
+        stroke: #636363;
+        stroke-width: 1px;
+        stroke-linejoin: round;
+      }
+
+      #container {
+        margin:2%;
+        padding:20px;
+        border:2px solid #d0d0d0;
+        border-radius: 5px;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+ 
+      .legend {
+       font-size: 12px;
+      }
+ 
+      div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        height: 25px;
+        padding: 2px;
+        font-size: 10px;
+        background: #FFFFE0;
+        border: 1px;
+        border-radius: 8px;
+        pointer-events: none;
+      }
+
+    </style>
+  </head>
+  <body onload="sizeChange()">
+  
+    <div id="container">
+      <h1>Parliamentary Constituencies, 2014</h1>
+    </div>
+
+      <script type="text/javascript">
+
+        d3.select(window).on("resize", sizeChange);
+
+        var color_domain = ['GEN','SC','ST'];
+        var legend_labels = ['GEN','SC','ST'];
+        var color = d3.scale.threshold()
+          .domain(color_domain)
+          .range(["", "#b2df8a", "#1f78b4","#a6cee3"]);
+
+
+        var div = d3.select("body").append("div")
+         .attr("class", "tooltip")
+         .style("opacity", 0);
+
+        var projection = d3.geo.mercator()
+            .center([78, 27])
+            .scale(1200);
+
+        var path = d3.geo.path()
+            .projection(projection);
+
+        var svg = d3.select("#container")
+          .append("svg")
+          .append("g");
+
+        //NOTE: Because of topology issues in state boundaries in india_pc_2014, using cleaned up state boundaries in india_state_2014
+
+        queue()
+          .defer(d3.json, "india_pc_2014_simplified.topojson")
+          .defer(d3.json, "india_state_2014_simplified.topojson")
+          .defer(d3.csv, "results.csv")
+          .await(ready);
+
+        function ready(error, pc, state, data) {
+
+          //Set up for visualizing data table
+          var pairResultWithId = {};
+          var pairNameWithId = {};
+          data.forEach(function(d) {
+            pairResultWithId[d.ST_CODE + d.PC_CODE] = d.Res;
+            pairNameWithId[d.ST_CODE + d.PC_CODE] = d.PC_NAME;
+          });
+
+          var pc_geojson = topojson.feature(pc, pc.objects.india_pc_2014);
+          var state_geojson = topojson.feature(state, state.objects.india_state_2014);
+
+          svg.selectAll(".pc")
+              .data(pc_geojson.features)
+              .enter().append("path")
+              .attr("class", "pc")
+              .attr("d", path)
+              .style ( "fill" , function (d) {
+                var result = pairResultWithId[d.properties.ST_CODE + d.properties.PC_CODE];
+                if (result!='') {return color(result);}
+                
+              })
+              .style("opacity", 0.8)
+              .on("mouseover", function(d) {
+                 d3.select(this).transition().duration(300).style("opacity", 1);
+                 div.transition().duration(300)
+                 .style("opacity", 1)
+                 div.text(pairNameWithId[d.properties.ST_CODE + d.properties.PC_CODE] + " : " + pairResultWithId[d.properties.ST_CODE + d.properties.PC_CODE])
+                 .style("left", (d3.event.pageX) + "px")
+                 .style("top", (d3.event.pageY -30) + "px");
+              })
+              .on("mouseout", function() {
+                 d3.select(this)
+                 .transition().duration(300)
+                 .style("opacity", 0.8);
+                 div.transition().duration(300)
+                 .style("opacity", 0);
+              })
+ ;
+
+          svg.selectAll(".state")
+              .data(state_geojson.features)
+              .enter().append("path")
+              .attr("class", "state")
+              .attr("d", path);
+
+          /*svg.append("path")
+              .datum(topojson.mesh(pc_2014, pc_2014.objects.india_pc_2014, function(a, b) { return a.properties.ST_NAME !== b.properties.ST_NAME; }))
+              .attr("d", path)
+              .attr("class", "state-boundary");*/
+        }
+
+        var legend = svg.selectAll("g.legend")
+          .data(color_domain)
+          .enter().append("g")
+          .attr("class", "legend");
+
+        var ls_w = 20, ls_h = 20;
+
+
+        legend.append("rect")
+          .attr("x", 20)
+          .attr("y", function(d, i){ return $("#container").height() - (i*ls_h) - 2*ls_h;})
+            .attr("width", ls_w)
+          .attr("height", ls_h)
+          .style("fill", function(d, i) { return color(d); })
+          .style("opacity", 0.8);
+
+        legend.append("text")
+          .attr("x", 50)
+          .attr("y", function(d, i){ return $("#container").height() - (i*ls_h) - ls_h - 4;})
+          .text(function(d, i){ return legend_labels[i]; });
+
+        function sizeChange() {
+          d3.select("g").attr("transform", "scale(" + $("#container").width()/1000 + ")");
+          $("svg").height($("#container").width()*0.75);
+        }
+
+
+
+      </script>
+  </body>
+</html>

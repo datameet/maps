@@ -1,0 +1,545 @@
+ST_NAME,PC_NAME,ST_CODE,PC_CODE,Res
+AN,Andaman & Nicobar Islands,U01,1,GEN
+AP,Zahirabad,S01,5,GEN
+AP,Araku,S01,18,ST
+AP,Khammam,S01,17,GEN
+AP,Medak,S01,6,GEN
+AP,Anakapalli,S01,22,GEN
+AP,Bhongir,S01,14,GEN
+AP,Chevella,S01,10,GEN
+AP,Srikakulam,S01,19,GEN
+AP,Eluru,S01,27,GEN
+AP,Secunderabad,S01,8,GEN
+AP,Peddapalle,S01,2,SC
+AP,Rajahmundry,S01,25,GEN
+AP,Nalgonda,S01,13,GEN
+AP,Narsapuram,S01,26,GEN
+AP,Nagarkurnool,S01,12,SC
+AP,Amlapuram,S01,24,SC
+AP,Narasaraopet,S01,31,GEN
+AP,Machilipatnam,S01,28,GEN
+AP,Guntur,S01,30,GEN
+AP,Ongole,S01,33,GEN
+AP,Bapatla,S01,32,SC
+AP,Kurnool,S01,35,GEN
+AP,Karimnagar,S01,3,GEN
+AP,Nizamabad,S01,4,GEN
+AP,Vizianagaram,S01,20,GEN
+AP,Kakinada,S01,23,GEN
+AP,Adilabad,S01,1,ST
+AP,Rajampet,S01,41,GEN
+AP,Nellore,S01,39,GEN
+AP,Anantapur,S01,36,GEN
+AP,Kadapa,S01,38,GEN
+AP,Nandyal,S01,34,GEN
+AP,Mahabubabad,S01,16,ST
+AP,Chittoor,S01,42,SC
+AP,Tirupati,S01,40,SC
+AP,Hindupur,S01,37,GEN
+AP,Mahbubnagar,S01,11,GEN
+AP,Vijayawada,S01,29,GEN
+AP,Visakhapatnam,S01,21,GEN
+AP,Warangal,S01,15,SC
+AP,Hyderabad,S01,9,GEN
+AP,Malkajgiri,S01,7,GEN
+AR,Arunachal West,S02,1,GEN
+AR,Arunachal East,S02,2,GEN
+AS,Lakhimpur,S03,14,GEN
+AS,Dibrugarh,S03,13,GEN
+AS,Jorhat,S03,12,GEN
+AS,Tezpur,S03,9,GEN
+AS,Kaliabor,S03,11,GEN
+AS,Mangaldoi,S03,8,GEN
+AS,Nagaon,S03,10,GEN
+AS,Autonomous District,S03,3,ST
+AS,Dhubri,S03,4,GEN
+AS,Karimganj,S03,1,SC
+AS,Silchar,S03,2,GEN
+AS,Kokrajhar,S03,5,ST
+AS,Guwahati,S03,7,GEN
+AS,Barpeta,S03,6,GEN
+BR,Muzaffarpur,S04,15,GEN
+BR,Valmiki Nagar,S04,1,GEN
+BR,Araria,S04,9,GEN
+BR,Gopalganj,S04,17,SC
+BR,Siwan,S04,18,GEN
+BR,Vaishali,S04,16,GEN
+BR,Jhanjharpur,S04,7,GEN
+BR,Supaul,S04,8,GEN
+BR,Pashchim Champaran,S04,2,GEN
+BR,Madhubani,S04,6,GEN
+BR,Kishanganj,S04,10,GEN
+BR,Darbhanga,S04,14,GEN
+BR,Purnia,S04,12,GEN
+BR,Maharajganj,S04,19,GEN
+BR,Madhepura,S04,13,GEN
+BR,Begusarai,S04,24,GEN
+BR,Arrah,S04,32,GEN
+BR,Sasaram,S04,34,SC
+BR,Nawada,S04,39,GEN
+BR,Banka,S04,27,GEN
+BR,Nalanda,S04,29,GEN
+BR,Katihar,S04,11,GEN
+BR,Samastipur,S04,23,SC
+BR,Khagaria,S04,25,GEN
+BR,Pataliputra,S04,31,GEN
+BR,Buxar,S04,33,GEN
+BR,Patna Sahib,S04,30,GEN
+BR,Bhagalpur,S04,26,GEN
+BR,Munger,S04,28,GEN
+BR,Purba Champaran,S04,3,GEN
+BR,Sheohar,S04,4,GEN
+BR,Sitamarhi,S04,5,GEN
+BR,Ujiapur,S04,22,GEN
+BR,Hajipur,S04,21,SC
+BR,Karakat,S04,35,GEN
+BR,Saran (Chhapra),S04,20,GEN
+BR,Jamui,S04,40,SC
+BR,Aurangabad,S04,37,GEN
+BR,Gaya,S04,38,SC
+BR,Jahanabad,S04,36,GEN
+CG,Janjgir-Champa,S26,3,SC
+CG,Raipur,S26,8,GEN
+CG,Surguja,S26,1,ST
+CG,Bilaspur,S26,5,GEN
+CG,Rajnandgaon,S26,6,GEN
+CG,Durg,S26,7,GEN
+CG,Mahasamund,S26,9,GEN
+CG,Raigarh,S26,2,ST
+CG,Kanker,S26,11,ST
+CG,Bastar,S26,10,ST
+CG,Korba,S26,4,GEN
+CH,Chandigarh,U02,1,GEN
+DD,Daman & Diu,U04,1,GEN
+DL,West Delhi,U05,6,GEN
+DL,North West Delhi,U05,5,SC
+DL,Chandni Chowk,U05,1,GEN
+DL,North East Delhi,U05,2,GEN
+DL,South Delhi,U05,7,GEN
+DL,East Delhi,U05,3,GEN
+DL,New Delhi,U05,4,GEN
+DN,Dadra & Nagar Haveli,U03,1,ST
+GA,South Goa,S05,2,GEN
+GA,North Goa,S05,1,GEN
+GJ,Bardoli,S06,23,ST
+GJ,Junagadh,S06,13,GEN
+GJ,Surat,S06,24,GEN
+GJ,Kheda,S06,17,GEN
+GJ,Ahmadabad (West),S06,8,SC
+GJ,Jamnagar,S06,12,GEN
+GJ,Sabar Kantha,S06,5,GEN
+GJ,Banas Kantha,S06,2,GEN
+GJ,Patan,S06,3,GEN
+GJ,Panch Mahals,S06,18,GEN
+GJ,Dohad,S06,19,ST
+GJ,Vadodara,S06,20,GEN
+GJ,Anand,S06,16,GEN
+GJ,Amreli,S06,14,GEN
+GJ,Ahmadabad (East),S06,7,GEN
+GJ,Rajkot,S06,10,GEN
+GJ,Surendranagar,S06,9,GEN
+GJ,Navsari,S06,25,GEN
+GJ,Bharuch,S06,22,GEN
+GJ,Chhota Udaipur,S06,21,ST
+GJ,Porbandar,S06,11,GEN
+GJ,Valsad,S06,26,ST
+GJ,Gandhinagar,S06,6,GEN
+GJ,Mahesana,S06,4,GEN
+GJ,Bhavnagar,S06,15,GEN
+HP,Hamirpur,S08,3,GEN
+HP,Kangra,S08,1,GEN
+HP,Shimla,S08,4,SC
+HP,Mandi,S08,2,GEN
+HR,Ambala,S07,1,SC
+HR,Krukshetra,S07,2,GEN
+HR,Sirsa,S07,3,SC
+HR,Karnal,S07,5,GEN
+HR,Sonipat,S07,6,GEN
+HR,Hisar,S07,4,GEN
+HR,Rohtak,S07,7,GEN
+HR,Bhiwani - Mahendragarh,S07,8,GEN
+HR,Gurgaon,S07,9,GEN
+HR,Faridabad,S07,10,GEN
+JH,Jamshedpur,S27,9,GEN
+JH,Singhbhum,S27,10,ST
+JH,Rajmahal,S27,1,ST
+JH,Dumka,S27,2,ST
+JH,Godda,S27,3,GEN
+JH,Palamu,S27,13,SC
+JH,Hazaribagh,S27,14,GEN
+JH,Dhanbad,S27,7,GEN
+JH,Kodarma,S27,5,GEN
+JH,Lohardaga,S27,12,ST
+JH,Khunti,S27,11,ST
+JH,Chatra,S27,4,GEN
+JH,Ranchi,S27,8,GEN
+JH,Giridih,S27,6,GEN
+JK,Leh (Ladakh),S09,4,GEN
+JK,Jammu,S09,6,GEN
+JK,Srinagar,S09,2,GEN
+JK,Anantnag,S09,3,GEN
+JK,Baramula,S09,1,GEN
+JK,Udhampur,S09,5,GEN
+JK,,,-1,
+KA,Gulbarga,S10,5,SC
+KA,Bijapur,S10,4,SC
+KA,Chikkodi,S10,1,GEN
+KA,Raichur,S10,6,ST
+KA,Koppal,S10,8,GEN
+KA,Haveri,S10,10,GEN
+KA,Davanagere,S10,13,GEN
+KA,Chikkaballapura,S10,27,GEN
+KA,Udupi Chikmagalur,S10,15,GEN
+KA,Tumkur,S10,19,GEN
+KA,Kolar,S10,28,SC
+KA,Bangalore Rural,S10,23,GEN
+KA,Dharwad,S10,11,GEN
+KA,Bangalore North,S10,24,GEN
+KA,Dakshina Kannada,S10,17,GEN
+KA,Mysore,S10,21,GEN
+KA,Chamrajnagar,S10,22,SC
+KA,Mandya,S10,20,GEN
+KA,Bellary,S10,9,ST
+KA,Chitradurga,S10,18,SC
+KA,Bidar,S10,7,GEN
+KA,Uttara Kannada,S10,12,GEN
+KA,Shimoga,S10,14,GEN
+KA,Hassan,S10,16,GEN
+KA,Belgaum,S10,2,GEN
+KA,Bangalore South,S10,26,GEN
+KA,Bangalore Central,S10,25,GEN
+KA,Bagalkot,S10,3,GEN
+KL,Malappuram,S11,6,GEN
+KL,Pathanamthitta,S11,17,GEN
+KL,Mavelikkara,S11,16,SC
+KL,Thiruvananthapuram,S11,20,GEN
+KL,Palakkad,S11,8,GEN
+KL,Thrissur,S11,10,GEN
+KL,Alathur,S11,9,SC
+KL,Kasaragod,S11,1,GEN
+KL,Attingal,S11,19,GEN
+KL,Vadakara,S11,3,GEN
+KL,Kozhikode,S11,5,GEN
+KL,Kannur,S11,2,GEN
+KL,Chalakudy,S11,11,GEN
+KL,Idukki,S11,13,GEN
+KL,Alappuzha,S11,15,GEN
+KL,Kottayam,S11,14,GEN
+KL,Kollam,S11,18,GEN
+KL,Ernakulam,S11,12,GEN
+KL,Wayanad,S11,4,GEN
+KL,Ponnani,S11,7,GEN
+MN,Inner Manipur,S14,1,GEN
+MN,Outer Manipur,S14,2,ST
+MP,Bhind,S12,2,SC
+MP,Balaghat,S12,15,GEN
+MP,Hoshangabad,S12,17,GEN
+MP,Dhar,S12,25,ST
+MP,Indore,S12,26,GEN
+MP,Gwalior,S12,3,GEN
+MP,Sidhi,S12,11,GEN
+MP,Rajgarh,S12,20,GEN
+MP,Sagar,S12,5,GEN
+MP,Damoh,S12,7,GEN
+MP,Shahdol,S12,12,ST
+MP,Dewas,S12,21,SC
+MP,Ujjain,S12,22,SC
+MP,Bhopal,S12,19,GEN
+MP,Vidisha,S12,18,GEN
+MP,Ratlam,S12,24,ST
+MP,Rewa,S12,10,GEN
+MP,Satna,S12,9,GEN
+MP,Mandsaur,S12,23,GEN
+MP,Guna,S12,4,GEN
+MP,Chhindwara,S12,16,GEN
+MP,Betul,S12,29,ST
+MP,Khargone,S12,27,ST
+MP,Jabalpur,S12,13,GEN
+MP,Mandla,S12,14,ST
+MP,Morena,S12,1,GEN
+MP,Tikamgarh,S12,6,SC
+MP,Khajuraho,S12,8,GEN
+MP,Khandwa,S12,28,GEN
+ML,Tura,S15,2,ST
+ML,Shillong,S15,1,ST
+MH,Buldana,S13,5,GEN
+MH,Madha,S13,43,GEN
+MH,Satara,S13,45,GEN
+MH,Jalgaon,S13,3,GEN
+MH,Akola,S13,6,GEN
+MH,Sangli,S13,44,GEN
+MH,Solapur,S13,42,SC
+MH,Amravati,S13,7,SC
+MH,Ramtek,S13,9,SC
+MH,Nandurbar,S13,1,ST
+MH,Bhandara - Gondiya,S13,11,GEN
+MH,Wardha,S13,8,GEN
+MH,Shirur,S13,36,GEN
+MH,Beed,S13,39,GEN
+MH,Maval,S13,33,GEN
+MH,Parbhani,S13,17,GEN
+MH,Raigarh,S13,32,GEN
+MH,Osmanabad,S13,40,GEN
+MH,Hatkanangle,S13,48,GEN
+MH,Dhule,S13,2,GEN
+MH,Garhchiroli - Chimur,S13,12,ST
+MH,Raver,S13,4,GEN
+MH,Biwandi,S13,23,GEN
+MH,Dindori,S13,20,ST
+MH,Jalna,S13,18,GEN
+MH,Aurangabad,S13,19,GEN
+MH,Chandrapur,S13,13,GEN
+MH,Nashik,S13,21,GEN
+MH,Shirdi,S13,38,SC
+MH,Hingoli,S13,15,GEN
+MH,Ahmadnagar,S13,37,GEN
+MH,Palghar,S13,22,ST
+MH,Latur,S13,41,SC
+MH,Baramati,S13,35,GEN
+MH,Ratnagiri - Sindhudurg,S13,46,GEN
+MH,Kolhapur,S13,47,GEN
+MH,Thane,S13,25,GEN
+MH,Mumbai North,S13,26,GEN
+MH,Mumbai North-West,S13,27,GEN
+MH,Mumbai North-East,S13,28,GEN
+MH,Mumbai North-Central,S13,29,GEN
+MH,Mumbai South,S13,31,GEN
+MH,Mumbai South-Central,S13,30,GEN
+MH,Kalyan,S13,24,GEN
+MH,Pune,S13,34,GEN
+MH,Nanded,S13,16,GEN
+MH,Yavatmal - Washim,S13,14,GEN
+MH,Nagpur,S13,10,GEN
+MZ,Mizoram,S16,1,ST
+NL,Nagaland,S17,1,GEN
+OD,Bhadrak,S18,7,SC
+OD,Jajapur,S18,8,SC
+OD,Sambalpur,S18,3,GEN
+OD,Baleshwar,S18,6,GEN
+OD,Kendujhar,S18,4,ST
+OD,Mayurbhanj,S18,5,ST
+OD,Sundargarh,S18,2,ST
+OD,Bargarh,S18,1,GEN
+OD,Dhenkanal,S18,9,GEN
+OD,Bolangir,S18,10,GEN
+OD,Kalahandi,S18,11,GEN
+OD,Kandhamal,S18,13,GEN
+OD,Kendrapara,S18,15,GEN
+OD,Cuttack,S18,14,GEN
+OD,Bhubaneswar,S18,18,GEN
+OD,Aska,S18,19,GEN
+OD,Jagatsinghpur,S18,16,SC
+OD,Nabarangapur,S18,12,ST
+OD,Koraput,S18,21,ST
+OD,Puri,S18,17,GEN
+OD,Berhampur.,S18,20,GEN
+PB,Jalandhar,S19,4,SC
+PB,Hoshiarpur,S19,5,SC
+PB,Fatehgarh Sahib,S19,8,SC
+PB,Firozpur,S19,10,GEN
+PB,Patiala,S19,13,GEN
+PB,Bathinda,S19,11,GEN
+PB,Gurdaspur,S19,1,GEN
+PB,Amritsar,S19,2,GEN
+PB,Khadoor Sahib,S19,3,GEN
+PB,Anandpur Sahib,S19,6,GEN
+PB,Sangrur,S19,12,GEN
+PB,Ludhiana,S19,7,GEN
+PB,Faridkot,S19,9,SC
+PY,Puducherry,U07,1,GEN
+RJ,Churu,S20,3,GEN
+RJ,Bikaner,S20,2,SC
+RJ,Jhunjhunun,S20,4,GEN
+RJ,Alwar,S20,8,GEN
+RJ,Jodhpur,S20,16,GEN
+RJ,Sikar,S20,5,GEN
+RJ,Nagaur,S20,14,GEN
+RJ,Tonk - Sawai Madhopur,S20,12,GEN
+RJ,Bharatpur,S20,9,SC
+RJ,Barmer,S20,17,GEN
+RJ,Ajmer,S20,13,GEN
+RJ,Karauli - Dhaulpur,S20,10,SC
+RJ,Jhalawar - Baran,S20,25,GEN
+RJ,Rajsamand,S20,22,GEN
+RJ,Jalore,S20,18,GEN
+RJ,Bhilwara,S20,23,GEN
+RJ,Kota,S20,24,GEN
+RJ,Pali,S20,15,GEN
+RJ,Ganganagar,S20,1,SC
+RJ,Dausa,S20,11,ST
+RJ,Chittaurgarh,S20,21,GEN
+RJ,Jaipur,S20,7,GEN
+RJ,Banswara,S20,20,ST
+RJ,Udaipur,S20,19,ST
+RJ,Jaipur Rural,S20,6,GEN
+SK,Sikkim,S21,1,GEN
+TN,Erode,S22,17,GEN
+TN,Tenkasi,S22,37,SC
+TN,Tirunelveli,S22,38,GEN
+TN,Kanniyakumari,S22,39,GEN
+TN,Coimbatore,S22,20,GEN
+TN,Mayiladuthurai,S22,28,GEN
+TN,Perambalur,S22,25,GEN
+TN,Dindigul,S22,22,GEN
+TN,Arakkonam,S22,7,GEN
+TN,Chennai South,S22,3,GEN
+TN,Krishnagiri,S22,9,GEN
+TN,Arani,S22,12,GEN
+TN,Tiruvannamalai,S22,11,GEN
+TN,Sriperumbudur,S22,5,GEN
+TN,Vellore,S22,8,GEN
+TN,Kancheepuram,S22,6,SC
+TN,Kallakurichi,S22,14,GEN
+TN,Nilgiris,S22,19,SC
+TN,Chidambaram,S22,27,SC
+TN,Chennai North,S22,2,GEN
+TN,Chennai Central,S22,4,GEN
+TN,Thoothukkudi,S22,36,GEN
+TN,Nagappattinam,S22,29,SC
+TN,Tiruvallur,S22,1,SC
+TN,Viluppuram,S22,13,SC
+TN,Cuddalore,S22,26,GEN
+TN,Shivaganga,S22,31,GEN
+TN,Theni,S22,33,GEN
+TN,Ramanathapuram,S22,35,GEN
+TN,Namakkal,S22,16,GEN
+TN,Thanjavur,S22,30,GEN
+TN,Tiruchirappalli,S22,24,GEN
+TN,Pollachi,S22,21,GEN
+TN,Karur,S22,23,GEN
+TN,Dharmapuri,S22,10,GEN
+TN,Madurai,S22,32,GEN
+TN,Virudunagar,S22,34,GEN
+TN,Tiruppur,S22,18,GEN
+TN,Salem,S22,15,GEN
+TR,Tripura East,S23,2,ST
+TR,Tripura West,S23,1,GEN
+UK,Almora,S28,3,SC
+UK,Hardwar,S28,5,GEN
+UK,Tehri Garhwal,S28,1,GEN
+UK,Garhwal,S28,2,GEN
+UK,Nainital - Udhamsingh Nagar,S28,4,GEN
+UP,Saharanpur,S24,1,GEN
+UP,Kairana,S24,2,GEN
+UP,Nagina,S24,5,SC
+UP,Muzaffarnagar,S24,3,GEN
+UP,Baghpat,S24,11,GEN
+UP,Amroha,S24,9,GEN
+UP,Sambhal,S24,8,GEN
+UP,Meerut,S24,10,GEN
+UP,Lalganj,S24,68,SC
+UP,Jalaun,S24,45,GEN
+UP,Rampur,S24,7,GEN
+UP,Ghaziabad,S24,12,GEN
+UP,Pilibhit,S24,26,GEN
+UP,Bulandshahr,S24,14,SC
+UP,Kheri,S24,28,GEN
+UP,Bareilly,S24,25,GEN
+UP,Aonla,S24,24,GEN
+UP,Budaun,S24,23,GEN
+UP,Shahjahanpur,S24,27,SC
+UP,Bahraich,S24,56,SC
+UP,Aligarh,S24,15,GEN
+UP,Dhaurahra,S24,29,GEN
+UP,Etah,S24,22,GEN
+UP,Mathura,S24,17,GEN
+UP,Farrukhabad,S24,40,GEN
+UP,Hardoi,S24,31,SC
+UP,Hathras,S24,16,SC
+UP,Domriaganj,S24,60,GEN
+UP,Sitapur,S24,30,GEN
+UP,Firozabad,S24,20,GEN
+UP,Maharajganj,S24,63,GEN
+UP,Mainpuri,S24,21,GEN
+UP,Kaisarganj,S24,57,GEN
+UP,Gonda,S24,59,GEN
+UP,Misrikh,S24,32,SC
+UP,Barabanki,S24,53,SC
+UP,Kushi Nagar,S24,65,GEN
+UP,Fatehpur Sikri,S24,19,GEN
+UP,Azamgarh,S24,69,GEN
+UP,Bansgaon,S24,67,SC
+UP,Amethi,S24,37,GEN
+UP,Akbarpur,S24,44,SC
+UP,Rae Bareli,S24,36,GEN
+UP,Mohanlalganj,S24,34,SC
+UP,Deoria,S24,66,GEN
+UP,Sant Kabir Nagar,S24,62,GEN
+UP,Faizabad,S24,54,GEN
+UP,Etawah,S24,41,SC
+UP,Sultanpur,S24,38,GEN
+UP,Salempur,S24,71,GEN
+UP,Ghosi,S24,70,GEN
+UP,Chandauli,S24,76,GEN
+UP,Allahabad,S24,52,GEN
+UP,Mirzapur,S24,79,GEN
+UP,Robertsganj,S24,80,SC
+UP,Fatehpur,S24,49,GEN
+UP,Jaunpur,S24,73,GEN
+UP,Pratapgarh,S24,39,GEN
+UP,Hamirpur,S24,47,GEN
+UP,Kaushambi,S24,50,SC
+UP,Ballia,S24,72,GEN
+UP,Jhansi,S24,46,GEN
+UP,Ghazipur,S24,75,GEN
+UP,Machhlishahr,S24,74,SC
+UP,Phulpur,S24,51,GEN
+UP,Sant Ravi Das Nagar (Bhadohi),S24,78,GEN
+UP,Ambedkar Nagar,S24,55,GEN
+UP,Banda,S24,48,GEN
+UP,Kanpur,S24,43,GEN
+UP,Unnao,S24,33,GEN
+UP,Kannauj,S24,42,GEN
+UP,Lucknow,S24,35,GEN
+UP,Varanasi,S24,77,GEN
+UP,Gorakhpur,S24,64,GEN
+UP,Basti,S24,61,GEN
+UP,Shrawasti,S24,58,GEN
+UP,Agra,S24,18,SC
+UP,Gautam Buddha Nagar,S24,13,GEN
+UP,Bijnor,S24,4,GEN
+UP,Moradabad,S24,6,GEN
+WB,Darjiling,S25,4,GEN
+WB,Arambag,S25,29,SC
+WB,Barasat,S25,17,GEN
+WB,Medinipur,S25,34,GEN
+WB,Tamluk,S25,30,GEN
+WB,Murshidabad,S25,11,GEN
+WB,Krishnanagar,S25,12,GEN
+WB,Birbhum,S25,42,GEN
+WB,Bolpur,S25,41,SC
+WB,Barddhaman - Durgapur,S25,39,GEN
+WB,Puruliya,S25,35,GEN
+WB,Barddhaman Purba,S25,38,SC
+WB,Bankura,S25,36,GEN
+WB,Asansol,S25,40,GEN
+WB,Ranaghat,S25,13,SC
+WB,Bishnupur,S25,37,SC
+WB,Jangipur,S25,9,GEN
+WB,Balurghat,S25,6,GEN
+WB,Maldah Uttar,S25,7,GEN
+WB,Kolkata Uttar,S25,24,GEN
+WB,Jhargram,S25,33,ST
+WB,Kolkata Dakshin,S25,23,GEN
+WB,Uluberiya,S25,26,GEN
+WB,Mathurapur,S25,20,SC
+WB,Jaynagar,S25,19,SC
+WB,Diamond Harbour,S25,21,GEN
+WB,Kanthi,S25,31,GEN
+WB,Basirhat,S25,18,GEN
+WB,Bangaon,S25,14,SC
+WB,Koch Bihar,S25,1,SC
+WB,Alipurduars,S25,2,ST
+WB,Jalpaiguri,S25,3,SC
+WB,Barakpur,S25,15,GEN
+WB,Haora,S25,25,GEN
+WB,Jadavpur,S25,22,GEN
+WB,Hugli,S25,28,GEN
+WB,Shrirampur,S25,27,GEN
+WB,Baharampur,S25,10,GEN
+WB,Maldah Dakshin,S25,8,GEN
+WB,Raiganj,S25,5,GEN
+WB,Ghatal,S25,32,GEN
+WB,Dum Dum,S25,16,GEN
+GJ,Kachchh,S06,1,SC
+LD,Lakshadweep,U06,1,ST
