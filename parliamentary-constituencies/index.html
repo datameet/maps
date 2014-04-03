@@ -5,9 +5,13 @@
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script src="http://d3js.org/topojson.v1.js"></script>
     <script src="http://d3js.org/queue.v1.min.js"></script>
-    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
 
     <style type="text/css">
+
+      body {
+        font-family: Arial, sans-serif;
+      }
 
       .pc {
         fill: #bdbdbd;
@@ -28,26 +32,52 @@
         border:2px solid #d0d0d0;
         border-radius: 5px;
       }
-
-      body {
-        font-family: Arial, sans-serif;
-      }
- 
-      .legend {
-       font-size: 12px;
-      }
  
       div.tooltip {
         position: absolute;
         text-align: center;
-        width: 150px;
-        height: 25px;
-        padding: 2px;
+        padding: 0.5em;
         font-size: 10px;
-        background: #FFFFE0;
-        border: 1px;
-        border-radius: 8px;
+        color: #222;
+        background: #FFF;
+        border-radius: 2px;
         pointer-events: none;
+        box-shadow: 0px 0px 2px 0px #a6a6a6;
+        text-shadow:#f5f5f5 0 1px 0;
+      }
+
+      .legend .legend-title {
+        text-align: left;
+        margin-bottom: 5px;
+        font-weight: bold;
+        font-size: 90%;
+      }
+      .legend .legend-scale ul {
+        margin: 0;
+        margin-bottom: 5px;
+        padding: 0;
+        float: left;
+        list-style: none;
+      }
+      .legend .legend-scale ul li {
+        font-size: 80%;
+        list-style: none;
+        margin-left: 0;
+        line-height: 18px;
+        margin-bottom: 2px;
+        }
+      .legend ul.legend-labels li span {
+        display: block;
+        float: left;
+        height: 20px;
+        width: 20px;
+        margin-right: 5px;
+        margin-left: 0;
+      }
+      .legend .legend-source {
+        font-size: 70%;
+        color: #999;
+        clear: both;
       }
 
     </style>
@@ -56,6 +86,12 @@
   
     <div id="container">
       <h1>Parliamentary Constituencies, 2014</h1>
+      <div class='legend'>
+        <div class='legend-title'>Reservation Status</div>
+        <div class='legend-scale'>
+        </div>
+        <div class='legend-source'>Source: <a href="#link to source">Name of source</a></div>
+      </div>
     </div>
 
       <script type="text/javascript">
@@ -82,6 +118,8 @@
 
         var svg = d3.select("#container")
           .append("svg")
+          .attr("width", "100%")
+          .attr("height","100%")
           .append("g");
 
         //NOTE: Because of topology issues in state boundaries in india_pc_2014, using cleaned up state boundaries in india_state_2014
@@ -145,30 +183,26 @@
               .attr("class", "state-boundary");*/
         }
 
-        var legend = svg.selectAll("g.legend")
-          .data(color_domain)
-          .enter().append("g")
-          .attr("class", "legend");
 
-        var ls_w = 20, ls_h = 20;
+        var legend = d3.select('.legend-scale')
+          .append('ul')
+          .attr('class', 'legend-labels');
 
+        var keys = legend.selectAll('li')
+          .data(color_domain);
 
-        legend.append("rect")
-          .attr("x", 20)
-          .attr("y", function(d, i){ return $("#container").height() - (i*ls_h) - 2*ls_h;})
-            .attr("width", ls_w)
-          .attr("height", ls_h)
-          .style("fill", function(d, i) { return color(d); })
-          .style("opacity", 0.8);
+        keys.enter().append('li')
+          .text(function(d, i){ return legend_labels[i];})
+          .append('span')
+          .style('background', function(d) { return color(d); })
+          ;
 
-        legend.append("text")
-          .attr("x", 50)
-          .attr("y", function(d, i){ return $("#container").height() - (i*ls_h) - ls_h - 4;})
-          .text(function(d, i){ return legend_labels[i]; });
 
         function sizeChange() {
           d3.select("g").attr("transform", "scale(" + $("#container").width()/1000 + ")");
           $("svg").height($("#container").width()*0.75);
+
+          console.log($("#container").height());
         }
 
 
