@@ -1,0 +1,10 @@
+site_name: Community Created Maps Of India
+theme_dir: cinder
+copyright: "DataMeet Community"
+pages:
+    - Home: index.md
+    - Contributing: contributing.md
+    - Reference: reference.md
+site_dir: './../docs'
+extra_css:
+    - css/extra.css
