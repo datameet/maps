@@ -1,0 +1,109 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Community Created Maps of India\n\n\nCommunity Created Maps of India sourced from different government websites which are freely available to all the Indians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the researchers, students etc\n\n\nAll the boundaries are available in geojson or shapefile (WGS84, EPSG4326) format. The below table gives you the status of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. You can contribute by sending the pull requests. Please use the census names when correcting the attributes and geojson for shapes. Refer \nCONTRIBUTING\n for ways to contribute.\n\n\n This projects run by \nData{Meet}\n community. DataMeet is a community of Data Science and Open Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that using data in India presents. Join the the \nGoogle Group\n to be part of this community.\n\n\nAvailable Maps\n\n\nAssembly Constituencies\n\n\nParliamentary Constituencies\n\n\nState Boundaries\n\n\nDistrict Boundaries\n\n\nSpatial Data of Municipalities (Maps)\n\n\nSpatial Data of Municipalities (Maps)\n\n\nIndian Village Boundaries (Maps)\n\n\nIndian Village Boundaries (Maps)", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#community-created-maps-of-india", 
+            "text": "Community Created Maps of India sourced from different government websites which are freely available to all the Indians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the researchers, students etc  All the boundaries are available in geojson or shapefile (WGS84, EPSG4326) format. The below table gives you the status of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. You can contribute by sending the pull requests. Please use the census names when correcting the attributes and geojson for shapes. Refer  CONTRIBUTING  for ways to contribute.   This projects run by  Data{Meet}  community. DataMeet is a community of Data Science and Open Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that using data in India presents. Join the the  Google Group  to be part of this community.", 
+            "title": "Community Created Maps of India"
+        }, 
+        {
+            "location": "/#available-maps", 
+            "text": "", 
+            "title": "Available Maps"
+        }, 
+        {
+            "location": "/#assembly-constituencies", 
+            "text": "", 
+            "title": "Assembly Constituencies"
+        }, 
+        {
+            "location": "/#parliamentary-constituencies", 
+            "text": "", 
+            "title": "Parliamentary Constituencies"
+        }, 
+        {
+            "location": "/#state-boundaries", 
+            "text": "", 
+            "title": "State Boundaries"
+        }, 
+        {
+            "location": "/#district-boundaries", 
+            "text": "", 
+            "title": "District Boundaries"
+        }, 
+        {
+            "location": "/#spatial-data-of-municipalities-maps", 
+            "text": "Spatial Data of Municipalities (Maps)", 
+            "title": "Spatial Data of Municipalities (Maps)"
+        }, 
+        {
+            "location": "/#indian-village-boundaries-maps", 
+            "text": "Indian Village Boundaries (Maps)", 
+            "title": "Indian Village Boundaries (Maps)"
+        }, 
+        {
+            "location": "/contributing/", 
+            "text": "Contributing to Community Created Maps Of India\n\n\nWe are open to contributions. Please read \nDataMeet Community Code of Conduct\n before you start.\n\n\nReferencing the Source\n\n\nFor any change you make please link to a source. We prefer goverment websites or websites/apps like \nOpenStreeMap\n who share the data under ODBl. You can add them to the state specific .md file, so they due credit. If they are generic then you can add it to the reference.md file.\n\n\nHow to contribute\n\n\n\n\nFork the project\n\n\nMake changes\n\n\nSend a pull request\n\n\n\n\nAcceptance procedure\n\n\n\n\nOne of the core volunteer will cross-check/validate with the references you add to pull request\n\n\nIf everything is okay then will accept the pull request\n\n\n\n\nAdding new attribute or changing the value\n\n\nBefore adding any new attribute, discuss on the list. If you have any corrections to the value of attribute source it from an official goverment site or Census of India. Without reference we wont add.\n\n\nAdding new state\n\n\nRefer the availabe state map files online. Generally state revenue department. If they are not availabe online, request through RTI. Digitize it. Add attributes and send a pull request. Before starting a new state put an \nissue on the issue tracker\n, so other know you are working on it. Also check the status on the README file.\n\n\nReporting error\n\n\nIf you have any issues with the maps, please report them on the github repository. Give details and reference. One of us will pick it up.\n\n\nReport Issue\n\n\nActive Issues\n\n\nAnything else\n\n\nStart an \nissue on the issue tracker\n or email on the list.", 
+            "title": "Contributing"
+        }, 
+        {
+            "location": "/contributing/#contributing-to-community-created-maps-of-india", 
+            "text": "We are open to contributions. Please read  DataMeet Community Code of Conduct  before you start.", 
+            "title": "Contributing to Community Created Maps Of India"
+        }, 
+        {
+            "location": "/contributing/#referencing-the-source", 
+            "text": "For any change you make please link to a source. We prefer goverment websites or websites/apps like  OpenStreeMap  who share the data under ODBl. You can add them to the state specific .md file, so they due credit. If they are generic then you can add it to the reference.md file.", 
+            "title": "Referencing the Source"
+        }, 
+        {
+            "location": "/contributing/#how-to-contribute", 
+            "text": "Fork the project  Make changes  Send a pull request", 
+            "title": "How to contribute"
+        }, 
+        {
+            "location": "/contributing/#acceptance-procedure", 
+            "text": "One of the core volunteer will cross-check/validate with the references you add to pull request  If everything is okay then will accept the pull request", 
+            "title": "Acceptance procedure"
+        }, 
+        {
+            "location": "/contributing/#adding-new-attribute-or-changing-the-value", 
+            "text": "Before adding any new attribute, discuss on the list. If you have any corrections to the value of attribute source it from an official goverment site or Census of India. Without reference we wont add.", 
+            "title": "Adding new attribute or changing the value"
+        }, 
+        {
+            "location": "/contributing/#adding-new-state", 
+            "text": "Refer the availabe state map files online. Generally state revenue department. If they are not availabe online, request through RTI. Digitize it. Add attributes and send a pull request. Before starting a new state put an  issue on the issue tracker , so other know you are working on it. Also check the status on the README file.", 
+            "title": "Adding new state"
+        }, 
+        {
+            "location": "/contributing/#reporting-error", 
+            "text": "If you have any issues with the maps, please report them on the github repository. Give details and reference. One of us will pick it up.  Report Issue  Active Issues", 
+            "title": "Reporting error"
+        }, 
+        {
+            "location": "/contributing/#anything-else", 
+            "text": "Start an  issue on the issue tracker  or email on the list.", 
+            "title": "Anything else"
+        }, 
+        {
+            "location": "/reference/", 
+            "text": "Reference\n\n\nThis is the master list of all the references. These links are mostly goverment or under open license. \n\n\nState Level", 
+            "title": "Reference"
+        }, 
+        {
+            "location": "/reference/#reference", 
+            "text": "This is the master list of all the references. These links are mostly goverment or under open license.", 
+            "title": "Reference"
+        }, 
+        {
+            "location": "/reference/#state-level", 
+            "text": "", 
+            "title": "State Level"
+        }
+    ]
+}
