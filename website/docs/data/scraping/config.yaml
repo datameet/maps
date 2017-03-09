@@ -1,0 +1,19 @@
+ac-14:
+    url : 'http://www.elections.in/parliamentary-constituencies/2014-election-results.html'
+    rex : '((.*)\s)*State\sWise'
+    fnm : 'pc_14.csv'
+
+ac-04:
+    url : 'http://www.elections.in/parliamentary-constituencies/2004-election-results.html'
+    rex : '((.*)\s)*General\sElections'
+    fnm : 'pc_04.csv'
+
+ac-09:
+    url : 'http://www.elections.in/parliamentary-constituencies/2009-election-results.html'
+    rex : '((.*)\s)*General\sElections'
+    fnm : 'pc_09.csv'
+
+ac-99:
+    url : 'http://www.elections.in/parliamentary-constituencies/1999-election-results.html'
+    rex : '((.*)\s)*General\sElections'
+    fnm : 'pc_99.csv'
