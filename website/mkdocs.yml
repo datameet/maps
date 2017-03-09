@@ -1,10 +1,21 @@
-site_name: Community Created Maps Of India
+site_name: Community Created Maps of India
 theme_dir: cinder
-copyright: "DataMeet Community"
 pages:
     - Home: index.md
-    - Contributing: contributing.md
-    - Reference: reference.md
+    - Contributing: Contributing.md
+    - Reference: Reference.md
+    - Tools: Tools.md
+    - Data:
+      - 'Assembly Constituencies': 'assembly-constituencies/index.md'
+      - 'Parliamentary constituencies': 'parliamentary-constituencies/index.md'
+      - 'States': 'states/index.md'
+      - 'Districts': 'districts/index.md'
 site_dir: './../docs'
 extra_css:
-    - css/extra.css
+    - 'bower_components/leaflet/dist/leaflet.css'
+extra_javascript:
+    - 'https://cdnjs.cloudflare.com/ajax/libs/d3/3.3.0/d3.min.js'
+    - 'bower_components/leaflet/dist/leaflet.js'
+    - 'js/mapsplot.js'
+
+
