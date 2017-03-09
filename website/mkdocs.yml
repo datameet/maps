@@ -1,15 +1,18 @@
 site_name: Community Created Maps of India
+site_description: A project website for maps of Indian Assembly Constituencies; Parliamentary constituencies; States; Districts and Village boundaries in geojson and shape file format for download and reuse. 
 theme_dir: cinder
 pages:
     - Home: index.md
-    - Contributing: Contributing.md
-    - Reference: Reference.md
-    - Tools: Tools.md
+    - Contributing: contributing.md
+    - Reference: reference.md
+    - Tools: tools.md
     - Data:
       - 'Assembly Constituencies': 'assembly-constituencies/index.md'
       - 'Parliamentary constituencies': 'parliamentary-constituencies/index.md'
       - 'States': 'states/index.md'
       - 'Districts': 'districts/index.md'
+      - 'Spatial data of Municipalities': 'Municipal_Spatial_Data.md'
+      - 'India Village Boundaries(Maps)': 'indian_village_boundaries.md'
 site_dir: './../docs'
 extra_css:
     - 'bower_components/leaflet/dist/leaflet.css'
