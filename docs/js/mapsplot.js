@@ -1,7 +1,7 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////Assembly Constituencies India////////////////////////////
 var plotAC = function(pane){
-	d3.json('/data/geojson/ac.geojson' , function(asscon){
+	d3.json('../data/geojson/ac.geojson' , function(asscon){
 		var map = L.map(pane,{scrollWheelZoom:false}).setView([23.40, 83.00], 5);
 		var tile = L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
 			maxZoom: 18,
@@ -79,8 +79,8 @@ var plotAC = function(pane){
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////PARLIAMENTARY CONSTITUENCIES' DATA PLOT WITH ELECTION RESULTS 2014////////////////
 var plotPC = function(pane){
-	d3.json('/data/geojson/pc_14.geojson' , function(parcon){
-		d3.csv('/data/csv/pc_14.csv' , function(info){
+	d3.json('../data/geojson/pc_14.geojson' , function(parcon){
+		d3.csv('../data/csv/pc_14.csv' , function(info){
 			var map = L.map(pane,{scrollWheelZoom:false}).setView([23.40, 83.00], 5);
 			L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
 				maxZoom: 18,
@@ -224,8 +224,8 @@ var plotPC = function(pane){
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////DISCTRICT DATA PLOT WITH CENSUS 2001 AND 2011////////////////////////////
 var plotDistricts = function(pane){
-	d3.json('/data/geojson/dists11.geojson' , function(districts){
-		d3.csv('/data/csv/dists.csv' , function(info){
+	d3.json('../data/geojson/dists11.geojson' , function(districts){
+		d3.csv('../data/csv/dists.csv' , function(info){
 			var map = L.map(pane,{scrollWheelZoom:false}).setView([23.40, 83.00], 5);
 			var tile = L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
 				maxZoom: 18,
@@ -386,8 +386,8 @@ var plotDistricts = function(pane){
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////STATES DATA PLOT WITH CENSUS 2001 AND 2011////////////////////////////
 var plotStates = function(pane){
-	d3.json('/data/geojson/states.geojson' , function(states){
-		d3.csv('/data/csv/statesCensus.csv' , function(info){
+	d3.json('../data/geojson/states.geojson' , function(states){
+		d3.csv('../data/csv/statesCensus.csv' , function(info){
 			var map = L.map(pane).setView([23.40, 83.00], 4);
 			L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
 				maxZoom: 18,
