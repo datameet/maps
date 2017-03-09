@@ -16,13 +16,13 @@ this community.
 Please refer to individual project webiste for more information on how to download, license etc
 # Available Maps
 ## Assembly-constituencies
-[Assembly Constituencies](./Assembly Constituencies/index.md)
+[Assembly Constituencies](./assembly-constituencies/index.md)
 ## Parliamentary-constituencies
-[Parliamentary constituencies](./Parliamentary Constituencies/index.md)
+[Parliamentary constituencies](./parliamentary-constituencies/index.md)
 ## State-boundaries
-[States](./States/index.md)
+[States](./states/index.md)
 ## District-boundaries
-[Districts](./Districts/index.md)
+[Districts](./districts/index.md)
 ## Spatial-data-of-municipalities-maps
 [Spatial Data of Municipalities (Maps)](http://projects.datameet.org/Municipal_Spatial_Data)
 ## Indian-village-boundaries-maps

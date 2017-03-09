@@ -6,10 +6,10 @@ pages:
     - Reference: Reference.md
     - Tools: Tools.md
     - Data:
-      - 'Assembly Constituencies': 'Assembly Constituencies/index.md'
-      - 'Parliamentary constituencies': 'Parliamentary Constituencies/index.md'
-      - 'States': 'States/index.md'
-      - 'Districts': 'Districts/index.md'
+      - 'Assembly Constituencies': 'assembly-constituencies/index.md'
+      - 'Parliamentary constituencies': 'parliamentary-constituencies/index.md'
+      - 'States': 'states/index.md'
+      - 'Districts': 'districts/index.md'
 site_dir: './../docs'
 extra_css:
     - 'bower_components/leaflet/dist/leaflet.css'

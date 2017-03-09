@@ -57,7 +57,7 @@ that using data in India presents. Join the [Google Group](https://groups.google
 of this community
 
 ## Shapefile Attributes.
-#### Each Constituencies will have the following attributes.
+Each state will have the following attributes.
 
 - ST_NM: Name of the States as per the State Boundaries.
 
