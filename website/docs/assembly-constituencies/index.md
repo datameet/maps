@@ -74,11 +74,12 @@ Assembly Constituencies Maps are provided by [Data{Meet} Community Maps Project]
 
 ## Issues
 If you have any issues with the maps, please report them on the github repository:
-<p><a href="https://github.com/datameet/maps/issues"><button class="btn btn-primary" type="submit">Report Issue</button></a>
+<p><a href="https://github.com/datameet/maps/issues/new"><button class="btn btn-primary" type="submit">Report Issue</button></a>
 <a href="https://github.com/datameet/maps/issues"><button class="btn btn-primary" type="submit">Active Issues</button></a></p>
 ## Repository
-<p><a class="btn btn-lg btn-success" href="https://github.com/datameet/maps/issues">
-  <i class="fa fa-github fa-2x pull-left"></i> GitHub</a>   <a class="btn btn-lg btn-success" href="https://github.com/datameet/maps/issues">
+
+<p><a class="btn btn-lg btn-success" href="https://github.com/datameet/maps">
+  <i class="fa fa-github fa-2x pull-left"></i> GitHub</a>   <a class="btn btn-lg btn-success" href="https://gitlab.com/datameet/maps">
   <i class="fa fa-git fa-2x pull-left"></i> GitLab</a></p>
 
 
