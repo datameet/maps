@@ -5,25 +5,6 @@ We are open to contributions. Please read [DataMeet Community Code of Conduct](h
 ## Referencing the Source
 For any change you make please link to a source. We prefer goverment websites or websites/apps like [OpenStreeMap](https://www.openstreetmap.org) who share the data under ODBl. You can add them to the state specific .md file, so they due credit. If they are generic then you can add it to the reference.md file.
 
-
-## Format
-All the Assembly Constituencies are available in geojson (WGS84, EPSG4326) format.
-
-## Attributes
-#### Each boundary will have the following attributes
-
-- ST_CODE: Code of the states as per the Assembly Constituencies.
-- ST_NAME: Name of the states as per the Assembly Constituencies.
-- DT_CODE: District code of each state as per the Assembly Constituencies.
-- DIST_NAME: Name of Districts as per the Assembly Constituencies.
-- AC_NO: Numbers of Assembly Constituencies.
-- AC_NAME: Name of Assembly-Constituencies.
-- PC_NO: Numbers of Parliamentary-Constituencies.
-- PC_NAME:Name of Parliamentary-Constituencies.
-- PC_ID: IDs of the parliamentary-constituencies.
-- STATUS: Status of each id of the parliamentary-constituencies.
-
-
 ## How to contribute
 
 - Fork the project
