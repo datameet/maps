@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A project website for maps of Indian Assembly Constituencies; Parliamentary constituencies; States; Districts and Village boundaries in geojson and shape file format for download and reuse.">   
     <link rel="shortcut icon" href="./img/favicon.ico">
 
-    <title>Community Created Maps Of India</title>
+    <title>Community Created Maps of India</title>
 
     <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
@@ -19,7 +20,7 @@
     <link rel="stylesheet" href="./css/highlight.css">
 
 
-    <link href="./css/extra.css" rel="stylesheet">
+    <link href="./bower_components/leaflet/dist/leaflet.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -60,7 +61,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">Community Created Maps Of India</a>
+            <a class="navbar-brand" href=".">Community Created Maps of India</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -84,6 +85,57 @@
                 
                     <li >
                         <a href="reference/">Reference</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="tools/">Tools</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="assembly-constituencies/">Assembly Constituencies</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="parliamentary-constituencies/">Parliamentary constituencies</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="states/">States</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="districts/">Districts</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="Municipal_Spatial_Data/">Spatial data of Municipalities</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="indian_village_boundaries/">India Village Boundaries(Maps)</a>
+</li>
+
+                        
+                        </ul>
                     </li>
                 
                 
@@ -124,10 +176,10 @@
     
         <li class="first-level "><a href="#available-maps">Available Maps</a></li>
         
-            <li class="second-level"><a href="#assembly-constituencies">Assembly Constituencies</a></li>
+            <li class="second-level"><a href="#assembly-constituencies">Assembly-constituencies</a></li>
             
         
-            <li class="second-level"><a href="#parliamentary-constituencies">Parliamentary Constituencies</a></li>
+            <li class="second-level"><a href="#parliamentary-constituencies">Parliamentary-constituencies</a></li>
             
         
             <li class="second-level"><a href="#state-boundaries">State Boundaries</a></li>
@@ -136,10 +188,10 @@
             <li class="second-level"><a href="#district-boundaries">District Boundaries</a></li>
             
         
-            <li class="second-level"><a href="#spatial-data-of-municipalities-maps">Spatial Data of Municipalities (Maps)</a></li>
+            <li class="second-level"><a href="#spatial-data-of-municipalities">Spatial data of Municipalities</a></li>
             
         
-            <li class="second-level"><a href="#indian-village-boundaries-maps">Indian Village Boundaries (Maps)</a></li>
+            <li class="second-level"><a href="#indian-village-boundaries">Indian village boundaries</a></li>
             
         
     
@@ -148,27 +200,38 @@
         <div class="col-md-9" role="main">
 
 <h1 id="community-created-maps-of-india">Community Created Maps of India</h1>
-<p>Community Created Maps of India sourced from different government websites which are freely available to all the Indians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the researchers, students etc</p>
-<p>All the boundaries are available in geojson or shapefile (WGS84, EPSG4326) format. The below table gives you the status of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. You can contribute by sending the pull requests. Please use the census names when correcting the attributes and geojson for shapes. Refer <a href="./contributing">CONTRIBUTING</a> for ways to contribute.</p>
-<p><img width="250px" style="float:left" src="http://projects.datameet.org/logo/datameet_logo_v.1.2.png" > This projects run by <a href="http://datameet.org">Data{Meet}</a> community. DataMeet is a community of Data Science and Open Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that using data in India presents. Join the the <a href="https://groups.google.com/group/datameet">Google Group</a> to be part of this community.</p>
-<p>Please refer to individual project webiste for more information on how to download, license etc</p>
+<p>Community Created Maps of India sourced from different government websites which are freely available to all the 
+Indians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the 
+researchers, students etc.:</p>
+<p>All the boundaries are available in geojson or shapefile (WGS84, EPSG4326) format. The below table gives you the 
+status of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. 
+You can contribute by sending the pull requests. Please use the census names when correcting the attributes and 
+geojson for shapes. Refer <a href="./contributing">CONTRIBUTING</a> for ways to contribute.</p>
+<p><img width="250px" style="float:left" src="http://projects.datameet.org/logo/datameet_logo_v.1.2.png" > This 
+projects run by <a href="http://datameet.org">Data{Meet}</a> community. DataMeet is a community of Data Science and Open 
+Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that 
+using data in India presents. Join the the <a href="https://groups.google.com/group/datameet">Google Group</a> to be part of 
+this community.
+Please refer to individual project webiste for more information on how to download, license etc</p>
 <h1 id="available-maps">Available Maps</h1>
-<h2 id="assembly-constituencies">Assembly Constituencies</h2>
-<h2 id="parliamentary-constituencies">Parliamentary Constituencies</h2>
+<h2 id="assembly-constituencies">Assembly-constituencies</h2>
+<p><a href="assembly-constituencies/">Assembly Constituencies</a></p>
+<h2 id="parliamentary-constituencies">Parliamentary-constituencies</h2>
+<p><a href="parliamentary-constituencies/">Parliamentary constituencies</a></p>
 <h2 id="state-boundaries">State Boundaries</h2>
+<p><a href="states/">States</a></p>
 <h2 id="district-boundaries">District Boundaries</h2>
-<h2 id="spatial-data-of-municipalities-maps">Spatial Data of Municipalities (Maps)</h2>
-<p><a href="http://projects.datameet.org/Municipal_Spatial_Data/">Spatial Data of Municipalities (Maps)</a></p>
-<h2 id="indian-village-boundaries-maps">Indian Village Boundaries (Maps)</h2>
-<p><a href="http://projects.datameet.org/indian_village_boundaries/">Indian Village Boundaries (Maps)</a></p></div>
+<p><a href="districts/">Districts</a></p>
+<h2 id="spatial-data-of-municipalities">Spatial data of Municipalities</h2>
+<p><a href="http://projects.datameet.org/Municipal_Spatial_Data">Spatial Data of Municipalities (Maps)</a></p>
+<h2 id="indian-village-boundaries">Indian village boundaries</h2>
+<p><a href="http://projects.datameet.org/indian_village_boundaries">Indian Village Boundaries (Maps)</a></p></div>
         
     </div>
 
     <footer class="col-md-12 text-center">
         <hr>
         <p>
-        <small>DataMeet Community<br></small>
-        
 
         <small>A <a href="http://datameet.org/">Data{meet}</a> Project.</p></small>
     </footer>
@@ -182,7 +245,9 @@
     </script>
     <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
     <script src="./js/base.js"></script>
-    <script src="./js/extra.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.3.0/d3.min.js"></script>
+    <script src="./bower_components/leaflet/dist/leaflet.js"></script>
+    <script src="./js/mapsplot.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
         <div class="modal-dialog">

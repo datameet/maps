@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A project website for maps of Indian Assembly Constituencies; Parliamentary constituencies; States; Districts and Village boundaries in geojson and shape file format for download and reuse.">   
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Community Created Maps Of India</title>
+    <title>Community Created Maps of India</title>
 
     <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
@@ -19,7 +20,7 @@
     <link rel="stylesheet" href="/css/highlight.css">
 
 
-    <link href="/css/extra.css" rel="stylesheet">
+    <link href="/bower_components/leaflet/dist/leaflet.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -60,7 +61,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href="">Community Created Maps Of India</a>
+            <a class="navbar-brand" href="">Community Created Maps of India</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -84,6 +85,57 @@
                 
                     <li >
                         <a href="/reference">Reference</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="/tools">Tools</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="/assembly-constituencies">Assembly Constituencies</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="/parliamentary-constituencies">Parliamentary constituencies</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="/states">States</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="/districts">Districts</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="/Municipal_Spatial_Data">Spatial data of Municipalities</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="/indian_village_boundaries">India Village Boundaries(Maps)</a>
+</li>
+
+                        
+                        </ul>
                     </li>
                 
                 
@@ -131,8 +183,6 @@
     <footer class="col-md-12 text-center">
         <hr>
         <p>
-        <small>DataMeet Community<br></small>
-        
 
         <small>A <a href="http://datameet.org/">Data{meet}</a> Project.</p></small>
     </footer>
@@ -146,7 +196,9 @@
     </script>
     <script data-main="/mkdocs/js/search.js" src="/mkdocs/js/require.js"></script>
     <script src="/js/base.js"></script>
-    <script src="/js/extra.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.3.0/d3.min.js"></script>
+    <script src="/bower_components/leaflet/dist/leaflet.js"></script>
+    <script src="/js/mapsplot.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
         <div class="modal-dialog">

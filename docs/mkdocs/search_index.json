@@ -2,12 +2,12 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Community Created Maps of India\n\n\nCommunity Created Maps of India sourced from different government websites which are freely available to all the Indians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the researchers, students etc\n\n\nAll the boundaries are available in geojson or shapefile (WGS84, EPSG4326) format. The below table gives you the status of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. You can contribute by sending the pull requests. Please use the census names when correcting the attributes and geojson for shapes. Refer \nCONTRIBUTING\n for ways to contribute.\n\n\n This projects run by \nData{Meet}\n community. DataMeet is a community of Data Science and Open Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that using data in India presents. Join the the \nGoogle Group\n to be part of this community.\n\n\nPlease refer to individual project webiste for more information on how to download, license etc\n\n\nAvailable Maps\n\n\nAssembly Constituencies\n\n\nParliamentary Constituencies\n\n\nState Boundaries\n\n\nDistrict Boundaries\n\n\nSpatial Data of Municipalities (Maps)\n\n\nSpatial Data of Municipalities (Maps)\n\n\nIndian Village Boundaries (Maps)\n\n\nIndian Village Boundaries (Maps)", 
+            "text": "Community Created Maps of India\n\n\nCommunity Created Maps of India sourced from different government websites which are freely available to all the \nIndians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the \nresearchers, students etc.:\n\n\nAll the boundaries are available in geojson or shapefile (WGS84, EPSG4326) format. The below table gives you the \nstatus of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. \nYou can contribute by sending the pull requests. Please use the census names when correcting the attributes and \ngeojson for shapes. Refer \nCONTRIBUTING\n for ways to contribute.\n\n\n This \nprojects run by \nData{Meet}\n community. DataMeet is a community of Data Science and Open \nData enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that \nusing data in India presents. Join the the \nGoogle Group\n to be part of \nthis community.\nPlease refer to individual project webiste for more information on how to download, license etc\n\n\nAvailable Maps\n\n\nAssembly-constituencies\n\n\nAssembly Constituencies\n\n\nParliamentary-constituencies\n\n\nParliamentary constituencies\n\n\nState Boundaries\n\n\nStates\n\n\nDistrict Boundaries\n\n\nDistricts\n\n\nSpatial data of Municipalities\n\n\nSpatial Data of Municipalities (Maps)\n\n\nIndian village boundaries\n\n\nIndian Village Boundaries (Maps)", 
             "title": "Home"
         }, 
         {
             "location": "/#community-created-maps-of-india", 
-            "text": "Community Created Maps of India sourced from different government websites which are freely available to all the Indians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the researchers, students etc  All the boundaries are available in geojson or shapefile (WGS84, EPSG4326) format. The below table gives you the status of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. You can contribute by sending the pull requests. Please use the census names when correcting the attributes and geojson for shapes. Refer  CONTRIBUTING  for ways to contribute.   This projects run by  Data{Meet}  community. DataMeet is a community of Data Science and Open Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that using data in India presents. Join the the  Google Group  to be part of this community.  Please refer to individual project webiste for more information on how to download, license etc", 
+            "text": "Community Created Maps of India sourced from different government websites which are freely available to all the \nIndians. Here we have digitized them, cleaned them, added appropriate attributes so it can be used by all the \nresearchers, students etc.:  All the boundaries are available in geojson or shapefile (WGS84, EPSG4326) format. The below table gives you the \nstatus of the data as we clean and upload. Data is not perfect there as many errors both in data and boundaries. \nYou can contribute by sending the pull requests. Please use the census names when correcting the attributes and \ngeojson for shapes. Refer  CONTRIBUTING  for ways to contribute.   This \nprojects run by  Data{Meet}  community. DataMeet is a community of Data Science and Open \nData enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges that \nusing data in India presents. Join the the  Google Group  to be part of \nthis community.\nPlease refer to individual project webiste for more information on how to download, license etc", 
             "title": "Community Created Maps of India"
         }, 
         {
@@ -17,43 +17,43 @@
         }, 
         {
             "location": "/#assembly-constituencies", 
-            "text": "", 
-            "title": "Assembly Constituencies"
+            "text": "Assembly Constituencies", 
+            "title": "Assembly-constituencies"
         }, 
         {
             "location": "/#parliamentary-constituencies", 
-            "text": "", 
-            "title": "Parliamentary Constituencies"
+            "text": "Parliamentary constituencies", 
+            "title": "Parliamentary-constituencies"
         }, 
         {
             "location": "/#state-boundaries", 
-            "text": "", 
+            "text": "States", 
             "title": "State Boundaries"
         }, 
         {
             "location": "/#district-boundaries", 
-            "text": "", 
+            "text": "Districts", 
             "title": "District Boundaries"
         }, 
         {
-            "location": "/#spatial-data-of-municipalities-maps", 
+            "location": "/#spatial-data-of-municipalities", 
             "text": "Spatial Data of Municipalities (Maps)", 
-            "title": "Spatial Data of Municipalities (Maps)"
+            "title": "Spatial data of Municipalities"
         }, 
         {
-            "location": "/#indian-village-boundaries-maps", 
+            "location": "/#indian-village-boundaries", 
             "text": "Indian Village Boundaries (Maps)", 
-            "title": "Indian Village Boundaries (Maps)"
+            "title": "Indian village boundaries"
         }, 
         {
             "location": "/contributing/", 
-            "text": "Contributing to Community Created Maps Of India\n\n\nWe are open to contributions. Please read \nDataMeet Community Code of Conduct\n before you start.\n\n\nReferencing the Source\n\n\nFor any change you make please link to a source. We prefer goverment websites or websites/apps like \nOpenStreeMap\n who share the data under ODBl. You can add them to the state specific .md file, so they due credit. If they are generic then you can add it to the reference.md file.\n\n\nHow to contribute\n\n\n\n\nFork the project\n\n\nMake changes\n\n\nSend a pull request\n\n\n\n\nAcceptance procedure\n\n\n\n\nOne of the core volunteer will cross-check/validate with the references you add to pull request\n\n\nIf everything is okay then will accept the pull request\n\n\n\n\nAdding new attribute or changing the value\n\n\nBefore adding any new attribute, discuss on the list. If you have any corrections to the value of attribute source it from an official goverment site or Census of India. Without reference we wont add.\n\n\nAdding new state\n\n\nRefer the availabe state map files online. Generally state revenue department. If they are not availabe online, request through RTI. Digitize it. Add attributes and send a pull request. Before starting a new state put an \nissue on the issue tracker\n, so other know you are working on it. Also check the status on the README file.\n\n\nReporting error\n\n\nIf you have any issues with the maps, please report them on the github repository. Give details and reference. One of us will pick it up.\n\n\nReport Issue\n\n\nActive Issues\n\n\nAnything else\n\n\nStart an \nissue on the issue tracker\n or email on the list.", 
+            "text": "Contributing - Assembly Constituencies\n\n\nWe are open to contributions. Please read \nDataMeet Community Code of Conduct\n before you start and also read our \nlicense to familiarize yourself with ODBl\n under which all our and your contributions will be distributed.\n\n\nReferencing the Source\n\n\nFor any change you make please link to a source. We prefer goverment websites or websites/apps like \nOpenStreeMap\n who share the data under ODBl. You can add them to the state specific .md file, so they due credit. If they are generic then you can add it to the reference.md file.\n\n\nHow to contribute\n\n\n\n\nFork the project\n\n\nMake changes\n\n\nSend a pull request\n\n\n\n\nAcceptance procedure\n\n\n\n\nOne of the core volunteer will cross-check/validate with the references you add to pull request\n\n\nIf everything is okay then will accept the pull request\n\n\n\n\nAdding new attribute or changing the value\n\n\nBefore adding any new attribute, discuss on the list. If you have any corrections to the value of attribute \nsource it from an official goverment site or Census of India. Without reference we wont add.\n\n\nAdding new state\n\n\nRefer the availabe state map files online. Generally state revenue department. If they are not availabe online, \nrequest through RTI. Digitize it. Add attributes and send a pull request. Before starting a new state put an \n\nissue on the issue tracker\n, so other know you are working on it. Also \ncheck the status on the README file.\n\n\nReporting error\n\n\nIf you have any issues with the maps, please report them on the github repository. Give details and reference. \nOne of us will pick it up.\n\nReport Issue\n\n\nActive Issues\n\n\nAnything else\n\n\nStart an \nissue on the issue tracker\n or email on the list.", 
             "title": "Contributing"
         }, 
         {
-            "location": "/contributing/#contributing-to-community-created-maps-of-india", 
-            "text": "We are open to contributions. Please read  DataMeet Community Code of Conduct  before you start.", 
-            "title": "Contributing to Community Created Maps Of India"
+            "location": "/contributing/#contributing-assembly-constituencies", 
+            "text": "We are open to contributions. Please read  DataMeet Community Code of Conduct  before you start and also read our  license to familiarize yourself with ODBl  under which all our and your contributions will be distributed.", 
+            "title": "Contributing - Assembly Constituencies"
         }, 
         {
             "location": "/contributing/#referencing-the-source", 
@@ -72,17 +72,17 @@
         }, 
         {
             "location": "/contributing/#adding-new-attribute-or-changing-the-value", 
-            "text": "Before adding any new attribute, discuss on the list. If you have any corrections to the value of attribute source it from an official goverment site or Census of India. Without reference we wont add.", 
+            "text": "Before adding any new attribute, discuss on the list. If you have any corrections to the value of attribute \nsource it from an official goverment site or Census of India. Without reference we wont add.", 
             "title": "Adding new attribute or changing the value"
         }, 
         {
             "location": "/contributing/#adding-new-state", 
-            "text": "Refer the availabe state map files online. Generally state revenue department. If they are not availabe online, request through RTI. Digitize it. Add attributes and send a pull request. Before starting a new state put an  issue on the issue tracker , so other know you are working on it. Also check the status on the README file.", 
+            "text": "Refer the availabe state map files online. Generally state revenue department. If they are not availabe online, \nrequest through RTI. Digitize it. Add attributes and send a pull request. Before starting a new state put an  \nissue on the issue tracker , so other know you are working on it. Also \ncheck the status on the README file.", 
             "title": "Adding new state"
         }, 
         {
             "location": "/contributing/#reporting-error", 
-            "text": "If you have any issues with the maps, please report them on the github repository. Give details and reference. One of us will pick it up.  Report Issue  Active Issues", 
+            "text": "If you have any issues with the maps, please report them on the github repository. Give details and reference. \nOne of us will pick it up. Report Issue  Active Issues", 
             "title": "Reporting error"
         }, 
         {
@@ -92,18 +92,243 @@
         }, 
         {
             "location": "/reference/", 
-            "text": "Reference\n\n\nThis is the master list of all the references. These links are mostly goverment or under open license. \n\n\nState Level", 
+            "text": "Reference\n\n\nThis is the master list of all the references. These links are mostly goverment or under open license. Each state\nfolder also has a note that can be reffered.\n\n\nState Level\n\n\nIndia Level", 
             "title": "Reference"
         }, 
         {
             "location": "/reference/#reference", 
-            "text": "This is the master list of all the references. These links are mostly goverment or under open license.", 
+            "text": "This is the master list of all the references. These links are mostly goverment or under open license. Each state\nfolder also has a note that can be reffered.", 
             "title": "Reference"
         }, 
         {
             "location": "/reference/#state-level", 
             "text": "", 
             "title": "State Level"
+        }, 
+        {
+            "location": "/reference/#india-level", 
+            "text": "", 
+            "title": "India Level"
+        }, 
+        {
+            "location": "/tools/", 
+            "text": "Tools\n\n\n\n\nMapShaper\nis software for editing Shapefile, GeoJSON, TopoJSON and several other data formats, written in JavaScript.\n\n\ngeojson.io\n is a quick, simple tool for creating, viewing, and sharing maps. geojson.io is named after GeoJSON, an open source data format, and it supports GeoJSON in all ways - but also accepts KML, GPX, CSV, GTFS, TopoJSON, and other formats.\n\n\nGeoJSONLint\n is an app that validates your GeoJSON and shows your feature(s) on a map if everything checks out ok.\n\n\nRawGit\n - serves raw files directly from GitHub with proper Content-Type headers.\n\n\nQGIS\n - A Free and Open Source Geographic Information System.\n\n\nogr2ogr\n - Ogre is a web client (service) that translates spatial files into GeoJSON using the ogr2ogr command line tool for use in JavaScript web applications and frameworks", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/tools/#tools", 
+            "text": "MapShaper is software for editing Shapefile, GeoJSON, TopoJSON and several other data formats, written in JavaScript.  geojson.io  is a quick, simple tool for creating, viewing, and sharing maps. geojson.io is named after GeoJSON, an open source data format, and it supports GeoJSON in all ways - but also accepts KML, GPX, CSV, GTFS, TopoJSON, and other formats.  GeoJSONLint  is an app that validates your GeoJSON and shows your feature(s) on a map if everything checks out ok.  RawGit  - serves raw files directly from GitHub with proper Content-Type headers.  QGIS  - A Free and Open Source Geographic Information System.  ogr2ogr  - Ogre is a web client (service) that translates spatial files into GeoJSON using the ogr2ogr command line tool for use in JavaScript web applications and frameworks", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/assembly-constituencies/", 
+            "text": "#acmaps {\n    width: 700px;\n    height: 800px;\n}\n#acmaps .info {\n    padding: 6px 8px;\n    font: 0.7rem Arial, Helvetica, sans-serif;\n    background: white;\n    background: rgba(255,255,255,0.8);\n    box-shadow: 0 0 15px rgba(0,0,0,0.2);\n    border-radius: 5px;\n}\n#acmaps .info h6 {\n    font-size: 1.2rem;\n    margin: 0 0 5px;\n    color: #777;\n}\n\n\n\n\n\nIndia - Assembly Constituencies\n\n\nThe Assembly Constituencies of India, Scraped from ECI's \nPoling Station Locations\n Website.\n\n\nBefore using this data, please note the following:\n\n\n\n\nThe Assembly Constituencies for the states of  Jammu And Kashmir, Jharkhand, Assam, Manipur, Nagaland \n Arunachal Pradesh, appear to be pre-delimitation boundaries.\n\n\nThere is some shift in the data.\n\n\nSome Assemblies Constituency Names seem to be incorrect or Missing.\n\n\nThe Assembly Constituencies in the State of Telengana are still marked as belonging to Andhra Pradesh\n\n\nThe Union Territories of Andaman and Nicobar Islands, Chandigarh,  Dadra and Nagar Haveli, Daman and Diu, \n and Lakshadweep do not have a state assembly.\n\n\n\n\n :\n\n\nThis projects run by \nData{Meet}\n community. DataMeet is a community of Data Science and\nOpen Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges \nthat using data in India presents. Join the \nGoogle Group\n to be part \nof this community.\n\n\nShapefile Attributes.\n\n\nEach Constituency will have the following attributes.\n\n\n\n\nST_CODE: Code of the states as per the Assembly Constituencies.\n\n\nST_NAME: Name of the states as per the Assembly Constituencies.\n\n\nDT_CODE: District code of each state as per the Assembly Constituencies.\n\n\nDIST_NAME: Name of Districts as per the Assembly Constituencies.\n\n\nAC_NO: Numbers of Assembly Constituencies.\n\n\nAC_NAME: Name of Assembly-Constituencies.\n\n\nPC_NO: Numbers of Parliamentary-Constituencies.\n\n\nPC_NAME:Name of Parliamentary-Constituencies.\n\n\nPC_ID: IDs of the parliamentary-constituencies.\n\n\nSTATUS: Status of each id of the parliamentary-constituencies.\n\n\n\n\nQuick View\n\n\n\n\n\nDownload\n\n\nYou can download the whole repository as a zip file to get everything you want. Using the button below.\n\n \n Download Everything\n\nIf you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map. \nRight click on download link -\n Save link as\n.\n\n\n\n\n\nLicense\n\n\nThe dataset is shared under \nCreative Commons Attribution 2.5 India\n license.\n\n\nAttribute\n\n\nPlease use the following lines to attribute the maps if you use in your work. You could link instead of printing \nthe URLs in case of web projects.\n\n\nVillages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_\nboundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/\nlicenses/odbl/].\n\n\nIssues\n\n\nIf you have any issues with the maps, please report them on the github repository:\n\nReport Issue\n\n\nActive Issues\n\n\nRepository\n\n\n\n  \n GitHub\n   \n\n  \n GitLab\n\n\nCommunity", 
+            "title": "Assembly Constituencies"
+        }, 
+        {
+            "location": "/assembly-constituencies/#india-assembly-constituencies", 
+            "text": "The Assembly Constituencies of India, Scraped from ECI's  Poling Station Locations  Website.  Before using this data, please note the following:   The Assembly Constituencies for the states of  Jammu And Kashmir, Jharkhand, Assam, Manipur, Nagaland   Arunachal Pradesh, appear to be pre-delimitation boundaries.  There is some shift in the data.  Some Assemblies Constituency Names seem to be incorrect or Missing.  The Assembly Constituencies in the State of Telengana are still marked as belonging to Andhra Pradesh  The Union Territories of Andaman and Nicobar Islands, Chandigarh,  Dadra and Nagar Haveli, Daman and Diu, \n and Lakshadweep do not have a state assembly.    :  This projects run by  Data{Meet}  community. DataMeet is a community of Data Science and\nOpen Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges \nthat using data in India presents. Join the  Google Group  to be part \nof this community.", 
+            "title": "India - Assembly Constituencies"
+        }, 
+        {
+            "location": "/assembly-constituencies/#shapefile-attributes", 
+            "text": "Each Constituency will have the following attributes.   ST_CODE: Code of the states as per the Assembly Constituencies.  ST_NAME: Name of the states as per the Assembly Constituencies.  DT_CODE: District code of each state as per the Assembly Constituencies.  DIST_NAME: Name of Districts as per the Assembly Constituencies.  AC_NO: Numbers of Assembly Constituencies.  AC_NAME: Name of Assembly-Constituencies.  PC_NO: Numbers of Parliamentary-Constituencies.  PC_NAME:Name of Parliamentary-Constituencies.  PC_ID: IDs of the parliamentary-constituencies.  STATUS: Status of each id of the parliamentary-constituencies.", 
+            "title": "Shapefile Attributes."
+        }, 
+        {
+            "location": "/assembly-constituencies/#quick-view", 
+            "text": "", 
+            "title": "Quick View"
+        }, 
+        {
+            "location": "/assembly-constituencies/#download", 
+            "text": "You can download the whole repository as a zip file to get everything you want. Using the button below.    Download Everything \nIf you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map.  Right click on download link -  Save link as .", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/assembly-constituencies/#license", 
+            "text": "The dataset is shared under  Creative Commons Attribution 2.5 India  license.", 
+            "title": "License"
+        }, 
+        {
+            "location": "/assembly-constituencies/#attribute", 
+            "text": "Please use the following lines to attribute the maps if you use in your work. You could link instead of printing \nthe URLs in case of web projects.  Villages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_\nboundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/\nlicenses/odbl/].", 
+            "title": "Attribute"
+        }, 
+        {
+            "location": "/assembly-constituencies/#issues", 
+            "text": "If you have any issues with the maps, please report them on the github repository: Report Issue  Active Issues", 
+            "title": "Issues"
+        }, 
+        {
+            "location": "/assembly-constituencies/#repository", 
+            "text": "GitHub     \n    GitLab", 
+            "title": "Repository"
+        }, 
+        {
+            "location": "/assembly-constituencies/#community", 
+            "text": "", 
+            "title": "Community "
+        }, 
+        {
+            "location": "/parliamentary-constituencies/", 
+            "text": "#pcmap {\n    width: 700px;\n    height: 800px;\n}\n#pcmap .info {\n    padding: 6px 8px;\n    font: 0.7rem Arial, Helvetica, sans-serif;\n    background: white;\n    background: rgba(255,255,255,0.8);\n    box-shadow: 0 0 15px rgba(0,0,0,0.2);\n    border-radius: 5px;\n}\n#pcmap .info h6 {\n    font-size: 1.2rem;\n    margin: 0 0 5px;\n    color: #777;\n}\n\n#pcmap .legend {\n    line-height: 18px;\n    color: #555;\n}\n\n#pcmap .legend i {\n    width: 15px;\n    height: 15px;\n    float: left;\n    margin-right: 8px;\n    opacity: 0.8;\n}\n\n\n\n\nIndia - Parliamentary Constituencies\n\n\nParliamentary constituency boundaries data generated, cleaned, and verified at the \nOpenDataCamp Bangalore Hackathon, 2014\n.\n\n\nBefore using this data, please note the following:\n\n\n\n\nThe Parliamentary Constituencies for the states of  Jammu And Kashmir, Jharkhand, Assam, Manipur, Nagaland \n Arunachal Pradesh, appear to be pre-delimitation boundaries.\n\n\nThere is some shift in the data.\n\n\nSome Parliamentary Constituencies Names seem to be incorrect or Missing.\n\n\nThe Parliamentary Constituencies in the State of Telengana are still marked as belonging to Andhra Pradesh\n\n\nThe Union Territories of Andaman and Nicobar Islands, Chandigarh,  Dadra and Nagar Haveli, Daman and Diu, \n and Lakshadweep do not have a state assembly.\n\n\n\n\n :\n\n\nThis projects run by \nData{Meet}\n community. DataMeet is a community of Data Science and\nOpen Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges \nthat using data in India presents. Join the \nGoogle Group\n to be part \nof this community.\n\n\nShapefile Attributes.\n\n\nEach Constituency will have the following attributes.\n\n\n\n\nST_NAME: Name of the states as per the Parliamentary constituency.\n\n\nST_CODE: Code of states as per the Parliamentary constituency.\n\n\nRes: Reservation of cast as per the Parliamentary constituency.\n\n\n\n\nQuick view\n\n\n \n\n\n\nDownload\n\n\nYou can download the whole repository as a zip file to get everything you want. Using the button below.\n\n \n Download Everything\n\nIf you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map. \nRight click on download link -\n Save link as\n.\n\n\n\n\n\nLicense\n\n\nThe dataset is shared under \nCreative Commons Attribution 2.5 India\n license.\n\n\nAttribute\n\n\nPlease use the following lines to attribute the maps if you use in your work. You could link instead of printing \nthe URLs in case of web projects.\n\n\nVillages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_\nboundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/\nlicenses/odbl/].\n\n\nIssues\n\n\nIf you have any issues with the maps, please report them on the github repository:\n\nReport Issue\n\n\nActive Issues\n\n\nRepository\n\n\n\n  \n GitHub\n   \n\n  \n GitLab\n\n\nCommunity", 
+            "title": "Parliamentary constituencies"
+        }, 
+        {
+            "location": "/parliamentary-constituencies/#india-parliamentary-constituencies", 
+            "text": "Parliamentary constituency boundaries data generated, cleaned, and verified at the  OpenDataCamp Bangalore Hackathon, 2014 .  Before using this data, please note the following:   The Parliamentary Constituencies for the states of  Jammu And Kashmir, Jharkhand, Assam, Manipur, Nagaland   Arunachal Pradesh, appear to be pre-delimitation boundaries.  There is some shift in the data.  Some Parliamentary Constituencies Names seem to be incorrect or Missing.  The Parliamentary Constituencies in the State of Telengana are still marked as belonging to Andhra Pradesh  The Union Territories of Andaman and Nicobar Islands, Chandigarh,  Dadra and Nagar Haveli, Daman and Diu, \n and Lakshadweep do not have a state assembly.    :  This projects run by  Data{Meet}  community. DataMeet is a community of Data Science and\nOpen Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges \nthat using data in India presents. Join the  Google Group  to be part \nof this community.", 
+            "title": "India - Parliamentary Constituencies"
+        }, 
+        {
+            "location": "/parliamentary-constituencies/#shapefile-attributes", 
+            "text": "Each Constituency will have the following attributes.   ST_NAME: Name of the states as per the Parliamentary constituency.  ST_CODE: Code of states as per the Parliamentary constituency.  Res: Reservation of cast as per the Parliamentary constituency.", 
+            "title": "Shapefile Attributes."
+        }, 
+        {
+            "location": "/parliamentary-constituencies/#quick-view", 
+            "text": "", 
+            "title": "Quick view"
+        }, 
+        {
+            "location": "/parliamentary-constituencies/#download", 
+            "text": "You can download the whole repository as a zip file to get everything you want. Using the button below.    Download Everything \nIf you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map.  Right click on download link -  Save link as .", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/parliamentary-constituencies/#license", 
+            "text": "The dataset is shared under  Creative Commons Attribution 2.5 India  license.", 
+            "title": "License"
+        }, 
+        {
+            "location": "/parliamentary-constituencies/#attribute", 
+            "text": "Please use the following lines to attribute the maps if you use in your work. You could link instead of printing \nthe URLs in case of web projects.  Villages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_\nboundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/\nlicenses/odbl/].", 
+            "title": "Attribute"
+        }, 
+        {
+            "location": "/parliamentary-constituencies/#issues", 
+            "text": "If you have any issues with the maps, please report them on the github repository: Report Issue  Active Issues", 
+            "title": "Issues"
+        }, 
+        {
+            "location": "/parliamentary-constituencies/#repository", 
+            "text": "GitHub     \n    GitLab", 
+            "title": "Repository"
+        }, 
+        {
+            "location": "/parliamentary-constituencies/#community", 
+            "text": "", 
+            "title": "Community "
+        }, 
+        {
+            "location": "/states/", 
+            "text": "#statesmap {\n    width: 400px;\n    height: 400px;\n}\n\n#statesmap .info {\n    padding: 6px 8px;\n    font: 0.7rem Arial, Helvetica, sans-serif;\n    background: white;\n    background: rgba(255,255,255,0.8);\n    box-shadow: 0 0 15px rgba(0,0,0,0.2);\n    border-radius: 5px;\n}\n#statesmap .info h6 {\n    font-size: 1.2rem;\n    margin: 0 0 5px;\n    color: #777;\n}\n\n#statesmap .legend {\n    line-height: 18px;\n    color: #555;\n}\n\n#statesmap .legend i {\n    width: 15px;\n    height: 15px;\n    float: left;\n    margin-right: 8px;\n    opacity: 0.8;\n}\n\n\n\n\n\n\nIndia - State Boundaries\n\n\nThe State Boundaries of India, Scraped from ECI's \nPoling Station Locations\n Website.\n\n\nBefore using this data, please note the following:\n\n\n\n\nThe State Boundaries for the states of  Jammu And Kashmir, Jharkhand, Assam, Manipur, Nagaland \n Arunachal Pradesh, appear to be pre-delimitation boundaries.\n\n\nThere is some shift in the data.\n\n\nSome State Boundaries Names seem to be incorrect or Missing.\n\n\nThe State Boundaries in the State of Telengana are still marked as belonging to Andhra Pradesh\n\n\nThe Union Territories of Andaman and Nicobar Islands, Chandigarh,  Dadra and Nagar Haveli, Daman and Diu, \n and Lakshadweep do not have a state assembly.\n\n\n\n\n :\n\n\nThis projects run by \nData{Meet}\n community. DataMeet is a community of Data Science and\nOpen Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges \nthat using data in India presents. Join the \nGoogle Group\n to be part \nof this community\n\n\nShapefile Attributes.\n\n\nEach state will have the following attributes.\n\n\n\n\nST_NM: Name of the States as per the State Boundaries.\n\n\n\n\nQuick view\n\n\n \n\n\n\nDownload\n\n\nYou can download the whole repository as a zip file to get everything you want. Using the button below.\n\n \n Download Everything\n\nIf you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map. \nRight click on download link -\n Save link as\n.\n\n\n\n\n\nLicense\n\n\nThe dataset is shared under \nCreative Commons Attribution 2.5 India\n license.\n\n\nAttribute\n\n\nPlease use the following lines to attribute the maps if you use in your work. You could link instead of printing \nthe URLs in case of web projects.\n\n\nVillages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_\nboundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/\nlicenses/odbl/].\n\n\nIssues\n\n\nIf you have any issues with the maps, please report them on the github repository:\n\nReport Issue\n\n\nActive Issues\n\n\nRepository\n\n\n\n  \n GitHub\n   \n\n  \n GitLab\n\n\nCommunity", 
+            "title": "States"
+        }, 
+        {
+            "location": "/states/#india-state-boundaries", 
+            "text": "The State Boundaries of India, Scraped from ECI's  Poling Station Locations  Website.  Before using this data, please note the following:   The State Boundaries for the states of  Jammu And Kashmir, Jharkhand, Assam, Manipur, Nagaland   Arunachal Pradesh, appear to be pre-delimitation boundaries.  There is some shift in the data.  Some State Boundaries Names seem to be incorrect or Missing.  The State Boundaries in the State of Telengana are still marked as belonging to Andhra Pradesh  The Union Territories of Andaman and Nicobar Islands, Chandigarh,  Dadra and Nagar Haveli, Daman and Diu, \n and Lakshadweep do not have a state assembly.    :  This projects run by  Data{Meet}  community. DataMeet is a community of Data Science and\nOpen Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges \nthat using data in India presents. Join the  Google Group  to be part \nof this community", 
+            "title": "India - State Boundaries"
+        }, 
+        {
+            "location": "/states/#shapefile-attributes", 
+            "text": "Each state will have the following attributes.   ST_NM: Name of the States as per the State Boundaries.", 
+            "title": "Shapefile Attributes."
+        }, 
+        {
+            "location": "/states/#quick-view", 
+            "text": "", 
+            "title": "Quick view"
+        }, 
+        {
+            "location": "/states/#download", 
+            "text": "You can download the whole repository as a zip file to get everything you want. Using the button below.    Download Everything \nIf you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map.  Right click on download link -  Save link as .", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/states/#license", 
+            "text": "The dataset is shared under  Creative Commons Attribution 2.5 India  license.", 
+            "title": "License"
+        }, 
+        {
+            "location": "/states/#attribute", 
+            "text": "Please use the following lines to attribute the maps if you use in your work. You could link instead of printing \nthe URLs in case of web projects.  Villages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_\nboundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/\nlicenses/odbl/].", 
+            "title": "Attribute"
+        }, 
+        {
+            "location": "/states/#issues", 
+            "text": "If you have any issues with the maps, please report them on the github repository: Report Issue  Active Issues", 
+            "title": "Issues"
+        }, 
+        {
+            "location": "/states/#repository", 
+            "text": "GitHub     \n    GitLab", 
+            "title": "Repository"
+        }, 
+        {
+            "location": "/states/#community", 
+            "text": "", 
+            "title": "Community "
+        }, 
+        {
+            "location": "/districts/", 
+            "text": "#distsmap {\n    width: 700px;\n    height: 800px;\n}\n\n#distsmap .info {\n    margin-top: 160px ;\n    margin-right: 10px;\n    padding: 6px 8px;\n    font: 0.7rem Arial, Helvetica, sans-serif;\n    background: white;\n    background: rgba(255,255,255,0.8);\n    box-shadow: 0 0 15px rgba(0,0,0,0.2);\n    border-radius: 5px;\n}\n#distsmap .info h6 {\n    font-size: 1.2rem;\n    margin: 0 0 5px;\n    color: #777;\n}\n\n#distsmap .legend {\n    line-height: 18px;\n    color: #555;\n    margin-bottom: 150px ;\n    margin-right: 10px;\n}\n\n#distsmap .legend-control input {\n    float: left;\n    margin-bottom: 8px;\n}\n\n\n\n\nIndia - District Boundaries\n\n\nThe District Boundaries of India, Scraped from ECI's \nPoling Station Locations\n Website.\n\n\nBefore using this data, please note the following:\n\n\n\n\nThe District Boundaries for the states of  Jammu And Kashmir, Jharkhand, Assam, Manipur, Nagaland \n Arunachal Pradesh, appear to be pre-delimitation boundaries.\n\n\nThere is some shift in the data.\n\n\nSome Assemblies Constituency Names seem to be incorrect or Missing.\n\n\nThe Assembly Constituencies in the State of Telengana are still marked as belonging to Andhra Pradesh\n\n\nThe Union Territories of Andaman and Nicobar Islands, Chandigarh,  Dadra and Nagar Haveli, Daman and Diu, \n and Lakshadweep do not have a state assembly.\n\n\n\n\n :\n\n\nThis projects run by \nData{Meet}\n community. DataMeet is a community of Data Science and\nOpen Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges \nthat using data in India presents. Join the \nGoogle Group\n to be part \nof this community.\n\n\nShapefile Attributes.\n\n\nEach district will have the following attributes.\n\n\n\n\nST_NM: States names as per the District Boundaries.\n\n\nST_CEN_CD: States Census Code as per the District Boundaries.\n\n\nDT_CEN_CD: District Census Code as per the District Boundaries.\n\n\nDISTRICT: Name of Districts as per the District Boundaries.\n\n\n\n\nQuick view\n\n\n \n\n\n\nDownload\n\n\nYou can download the whole repository as a zip file to get everything you want. Using the button below.\n\n \n Download Everything\n\nIf you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map. \nRight click on download link -\n Save link as\n.\n\n\n\nLicense\n\n\nThe dataset is shared under \nCreative Commons Attribution 2.5 India\n license.\n\n\nAttribute\n\n\nPlease use the following lines to attribute the maps if you use in your work. You could link instead of printing \nthe URLs in case of web projects.\n\n\nVillages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_\nboundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/\nlicenses/odbl/].\n\n\nIssues\n\n\nIf you have any issues with the maps, please report them on the github repository:\n\nReport Issue\n\n\nActive Issues\n\n\nRepository\n\n\n\n  \n GitHub\n   \n\n  \n GitLab\n\n\nCommunity", 
+            "title": "Districts"
+        }, 
+        {
+            "location": "/districts/#india-district-boundaries", 
+            "text": "The District Boundaries of India, Scraped from ECI's  Poling Station Locations  Website.  Before using this data, please note the following:   The District Boundaries for the states of  Jammu And Kashmir, Jharkhand, Assam, Manipur, Nagaland   Arunachal Pradesh, appear to be pre-delimitation boundaries.  There is some shift in the data.  Some Assemblies Constituency Names seem to be incorrect or Missing.  The Assembly Constituencies in the State of Telengana are still marked as belonging to Andhra Pradesh  The Union Territories of Andaman and Nicobar Islands, Chandigarh,  Dadra and Nagar Haveli, Daman and Diu, \n and Lakshadweep do not have a state assembly.    :  This projects run by  Data{Meet}  community. DataMeet is a community of Data Science and\nOpen Data enthusiasts. Data{Meet} community encompass many people, ideas, projects, solutions, and challenges \nthat using data in India presents. Join the  Google Group  to be part \nof this community.", 
+            "title": "India - District Boundaries"
+        }, 
+        {
+            "location": "/districts/#shapefile-attributes", 
+            "text": "Each district will have the following attributes.   ST_NM: States names as per the District Boundaries.  ST_CEN_CD: States Census Code as per the District Boundaries.  DT_CEN_CD: District Census Code as per the District Boundaries.  DISTRICT: Name of Districts as per the District Boundaries.", 
+            "title": "Shapefile Attributes."
+        }, 
+        {
+            "location": "/districts/#quick-view", 
+            "text": "", 
+            "title": "Quick view"
+        }, 
+        {
+            "location": "/districts/#download", 
+            "text": "You can download the whole repository as a zip file to get everything you want. Using the button below.    Download Everything \nIf you are in exploring mode then to go to the specific state map page. In state page you can see a very rough version of the state village map and notes related to that state map. You can also download the full version state map from state page. If you just want to download the map.  Right click on download link -  Save link as .", 
+            "title": "Download"
+        }, 
+        {
+            "location": "/districts/#license", 
+            "text": "The dataset is shared under  Creative Commons Attribution 2.5 India  license.", 
+            "title": "License"
+        }, 
+        {
+            "location": "/districts/#attribute", 
+            "text": "Please use the following lines to attribute the maps if you use in your work. You could link instead of printing \nthe URLs in case of web projects.  Villages Maps Provided by Indian Village Boundaries Project [http://projects.datameet.org/indian_village_\nboundaries/] by Data{Meet}. Its made available under the Open Database License (ODbL)[http://opendatacommons.org/\nlicenses/odbl/].", 
+            "title": "Attribute"
+        }, 
+        {
+            "location": "/districts/#issues", 
+            "text": "If you have any issues with the maps, please report them on the github repository: Report Issue  Active Issues", 
+            "title": "Issues"
+        }, 
+        {
+            "location": "/districts/#repository", 
+            "text": "GitHub     \n    GitLab", 
+            "title": "Repository"
+        }, 
+        {
+            "location": "/districts/#community", 
+            "text": "", 
+            "title": "Community "
+        }, 
+        {
+            "location": "/Municipal_Spatial_Data/", 
+            "text": "window.location.href=\"http://projects.datameet.org/Municipal_Spatial_Data/\";", 
+            "title": "Spatial data of Municipalities"
+        }, 
+        {
+            "location": "/indian_village_boundaries/", 
+            "text": "window.location.href=\"http://projects.datameet.org/indian_village_boundaries/\";", 
+            "title": "India Village Boundaries(Maps)"
         }
     ]
 }

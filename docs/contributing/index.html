@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
     <link rel="shortcut icon" href="../img/favicon.ico">
 
-    <title>Contributing - Community Created Maps Of India</title>
+    <title>Contributing - Community Created Maps of India</title>
 
     <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../css/highlight.css">
 
 
-    <link href="../css/extra.css" rel="stylesheet">
+    <link href="../bower_components/leaflet/dist/leaflet.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -60,7 +60,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href="..">Community Created Maps Of India</a>
+            <a class="navbar-brand" href="..">Community Created Maps of India</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -84,6 +84,57 @@
                 
                     <li >
                         <a href="../reference/">Reference</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../tools/">Tools</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Data <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../assembly-constituencies/">Assembly Constituencies</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../parliamentary-constituencies/">Parliamentary constituencies</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../states/">States</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../districts/">Districts</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../Municipal_Spatial_Data/">Spatial data of Municipalities</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../indian_village_boundaries/">India Village Boundaries(Maps)</a>
+</li>
+
+                        
+                        </ul>
                     </li>
                 
                 
@@ -119,7 +170,7 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="first-level active"><a href="#contributing-to-community-created-maps-of-india">Contributing to Community Created Maps Of India</a></li>
+        <li class="first-level active"><a href="#contributing-assembly-constituencies">Contributing - Assembly Constituencies</a></li>
         
             <li class="second-level"><a href="#referencing-the-source">Referencing the Source</a></li>
             
@@ -147,10 +198,10 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="contributing-to-community-created-maps-of-india">Contributing to Community Created Maps Of India</h1>
-<p>We are open to contributions. Please read <a href="http://datameet.org/wiki/guidelines:datameet-community-code-of-conduct">DataMeet Community Code of Conduct</a> before you start.</p>
+<h1 id="contributing-assembly-constituencies">Contributing - Assembly Constituencies</h1>
+<p>We are open to contributions. Please read <a href="http://datameet.org/wiki/guidelines:datameet-community-code-of-conduct">DataMeet Community Code of Conduct</a> before you start and also read our <a href="http://opendatacommons.org/licenses/odbl">license to familiarize yourself with ODBl</a> under which all our and your contributions will be distributed.</p>
 <h2 id="referencing-the-source">Referencing the Source</h2>
-<p>For any change you make please link to a source. We prefer goverment websites or websites/apps like <a href="https://www.openstreetmap.org/">OpenStreeMap</a> who share the data under ODBl. You can add them to the state specific .md file, so they due credit. If they are generic then you can add it to the reference.md file.</p>
+<p>For any change you make please link to a source. We prefer goverment websites or websites/apps like <a href="https://www.openstreetmap.org">OpenStreeMap</a> who share the data under ODBl. You can add them to the state specific .md file, so they due credit. If they are generic then you can add it to the reference.md file.</p>
 <h2 id="how-to-contribute">How to contribute</h2>
 <ul>
 <li>Fork the project</li>
@@ -163,12 +214,17 @@
 <li>If everything is okay then will accept the pull request</li>
 </ul>
 <h2 id="adding-new-attribute-or-changing-the-value">Adding new attribute or changing the value</h2>
-<p>Before adding any new attribute, discuss on the list. If you have any corrections to the value of attribute source it from an official goverment site or Census of India. Without reference we wont add.</p>
+<p>Before adding any new attribute, discuss on the list. If you have any corrections to the value of attribute 
+source it from an official goverment site or Census of India. Without reference we wont add.</p>
 <h2 id="adding-new-state">Adding new state</h2>
-<p>Refer the availabe state map files online. Generally state revenue department. If they are not availabe online, request through RTI. Digitize it. Add attributes and send a pull request. Before starting a new state put an <a href="https://github.com/datameet/indian_village_boundaries/issues">issue on the issue tracker</a>, so other know you are working on it. Also check the status on the README file.</p>
+<p>Refer the availabe state map files online. Generally state revenue department. If they are not availabe online, 
+request through RTI. Digitize it. Add attributes and send a pull request. Before starting a new state put an <a href="https://github.com/datameet/maps/issues">
+issue on the issue tracker</a>, so other know you are working on it. Also 
+check the status on the README file.</p>
 <h2 id="reporting-error">Reporting error</h2>
-<p>If you have any issues with the maps, please report them on the github repository. Give details and reference. One of us will pick it up.</p>
-<p><a href="https://github.com/datameet/indian_village_boundaries/issues/new"><button class="btn btn-primary" type="submit">Report Issue</button></a>
+<p>If you have any issues with the maps, please report them on the github repository. Give details and reference. 
+One of us will pick it up.
+<a href="https://github.com/datameet/maps/issues"><button class="btn btn-primary" type="submit">Report Issue</button></a>
 <a href="https://github.com/datameet/maps/issues"><button class="btn btn-primary" type="submit">Active Issues</button></a></p>
 <h2 id="anything-else">Anything else</h2>
 <p>Start an <a href="https://github.com/datameet/maps/issues">issue on the issue tracker</a> or email on the list.</p></div>
@@ -178,8 +234,6 @@
     <footer class="col-md-12 text-center">
         <hr>
         <p>
-        <small>DataMeet Community<br></small>
-        
 
         <small>A <a href="http://datameet.org/">Data{meet}</a> Project.</p></small>
     </footer>
@@ -193,7 +247,9 @@
     </script>
     <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
     <script src="../js/base.js"></script>
-    <script src="../js/extra.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.3.0/d3.min.js"></script>
+    <script src="../bower_components/leaflet/dist/leaflet.js"></script>
+    <script src="../js/mapsplot.js"></script>
 
     <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
         <div class="modal-dialog">
