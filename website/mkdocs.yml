@@ -6,7 +6,7 @@ pages:
     - Contributing: contributing.md
     - Reference: reference.md
     - Tools: tools.md
-    - Data:
+    - Maps:
       - 'Assembly Constituencies': 'assembly-constituencies/index.md'
       - 'Parliamentary constituencies': 'parliamentary-constituencies/index.md'
       - 'States': 'states/index.md'
