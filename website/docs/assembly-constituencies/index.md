@@ -83,3 +83,10 @@ If you have any issues with the maps, please report them on the github repositor
   <i class="fa fa-git fa-2x pull-left"></i> GitLab</a></p>
 
 
+<script>
+$( document ).ready(function() {
+    console.log( "ready!" );
+    plotAC('acmaps')
+});
+</script>
+

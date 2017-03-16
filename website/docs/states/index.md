@@ -1,7 +1,7 @@
 <style>
 #statesmap {
-	width: 400px;
-	height: 400px;
+	width: 700px;
+	height: 800px;
 }
 
 #statesmap .info {
@@ -87,3 +87,10 @@ If you have any issues with the maps, please report them on the github repositor
   <i class="fa fa-git fa-2x pull-left"></i> GitLab</a></p>
 
 
+
+<script>
+$( document ).ready(function() {
+    console.log( "ready!" );
+    plotStates('statesmap')
+});
+</script>

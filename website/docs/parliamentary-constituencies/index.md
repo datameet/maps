@@ -84,3 +84,10 @@ If you have any issues with the maps, please report them on the github repositor
   <i class="fa fa-github fa-2x pull-left"></i> GitHub</a>   <a class="btn btn-lg btn-success" href="https://github.com/datameet/maps">
   <i class="fa fa-git fa-2x pull-left"></i> GitLab</a></p>
 
+
+<script>
+$( document ).ready(function() {
+    console.log( "ready!" );
+    plotPC('pcmap');
+});
+</script>
