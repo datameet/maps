@@ -226,7 +226,7 @@ var plotPC = function(pane){
 var plotDistricts = function(pane){
 	d3.json('../data/geojson/dists11.geojson' , function(districts){
 		d3.csv('../data/csv/dists.csv' , function(info){
-			var map = L.map(pane,{scrollWheelZoom:false}).setView([23.40, 83.00], 5);
+			var map = L.map(pane,{scrollWheelZoom:false}).setView([23.40, 83.00], 6);
 			var tile = L.tileLayer('http://{s}.tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png', {
 				maxZoom: 18,
 				minZoom:2,
@@ -498,7 +498,3 @@ var plotStates = function(pane){
 	})
 }
 
-plotStates('statesmap')
-plotDistricts('distsmap')
-plotPC('pcmap')
-plotAC('acmaps')
