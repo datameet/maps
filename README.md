@@ -20,3 +20,7 @@ In case you want this data in GeoJSON or KML, or any one of the myrid Vector for
 
 If you wish to convert these fiels using an Online too, you could look at: [MapSharper](http://www.mapshaper.org/); Do remeber to Zip up all the Files (*.shp, *.dbf, *.shx, *.prj) and import that into MapSharper. That way, you will get all attributes in the converted file.
 
+
+**License**
+
+Unless otherwise states, this dataset is shared under [Creative Commons Attribution-ShareAlike 2.5 India](http://creativecommons.org/licenses/by-sa/2.5/in/) license.
