@@ -6,7 +6,7 @@ Repository for all spatial data.
 For details go to our project site at [http://projects.datameet.org/maps/](http://projects.datameet.org/maps/)
 
 ----
-###Note on Format###
+### Note on Format ###
 
 This Repository contains Geospatial Data in [Shapefile Format](https://en.wikipedia.org/wiki/Shapefile), which is the defacto format for most GIS software.
 
