@@ -1,6 +1,38 @@
+# India - Admin 0 with Disputed Territories
+
+Single feature shapefile for the land area of India including disputed territories in accorance with the [Official boundary of India as per the Survey of India](http://www.surveyofindia.gov.in/pages/display/190-public-awareness).
+
+## `india-composite.geojson`
+
+The data is compiled from multiple global public domain sources.
+
+### Source
+
+- India, Aksai Chin and disputed territories with China: [LSIB - U.S. Department of State - Humanitarian Information Unit](https://data.humdata.org/dataset/global-lsib-polygons-detailed)
+- Pakistan occupied Kashmir: [Pakistan admin boundaries dataset - Alhasan Systems](https://data.humdata.org/dataset/pakistan-union-council-boundaries-along-with-other-admin-boundaries-dataset)
+- Shaksgam Valley - [Admin 0 Breakaway, Disputed Areas - Natural Earth Vectors](http://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-breakaway-disputed-areas/)
+
+
+### License
+
+CC-0
+
+## `india-soi.geojson`
+
+Dissolved shapefiles from the official Indian shapefile data available.
+
+### Source
+
+- [Census of India Districts 2011 / Survey of India - Datameet](https://github.com/datameet/maps/tree/master/Survey-of-India-Index-Maps/Boundaries)
+
+
+### License
+
+CC-by-sa 2.5 / ODbL
+
 ## `india-osm.geojson`
 
-Single feature for the land area of India including disputed territories. The data has been derieved from OSM and postprocessed in qgis:
+The data has been derieved from OSM and postprocessed in qgis:
 
 ### Source
 
@@ -15,4 +47,4 @@ Single feature for the land area of India including disputed territories. The da
 
 ### License
 
-The data is licensed under the ODbL license as it is sourced from OpenStreetMap Project. The original source for OSM is the [Global Large Scale International Boundary (LSIB) Polygons from the US State Department](https://catalog.data.gov/dataset/global-lsib-polygons-detailed-2017dec29) which is released as CC-0
+ODbL
