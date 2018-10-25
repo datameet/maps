@@ -2,6 +2,8 @@
 State and District level are available on [Github/Datameet](https://github.com/datameet/maps)
 (accessed on: March 10, 2016)
 
+
+
 ---
 
 ## OSM Sheet Index
@@ -29,3 +31,14 @@ Available in :
 
 ---
 [Prasun Gupta](mailto:prasun@iirs.gov.in)
+
+
+
+---
+## StateBoundary and IndiaBoundary
+
+A [Survey of India download](https://indiamaps.gov.in/soiapp/)
+
+
+
+
