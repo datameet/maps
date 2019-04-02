@@ -1,7 +1,7 @@
 India - Map of Parliamentary Constituencies, 2014
 ====
 
-Parliamentary constituency boundaries data generated, cleaned, and verified at the [OpenDataCamp Bangalore Hackathon, 2014](http://odc.datameet.org/odcblr2014).
+Parliamentary constituency boundaries Scraped from an Indian Government Website
 
 **License**
 
