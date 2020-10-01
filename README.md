@@ -18,7 +18,7 @@ In case you want this data in GeoJSON or KML, or any one of the myrid Vector for
 
 `ogr2ogr -f LIBKML <output name>.kmz <input name>.shp`  
 
-If you wish to convert these fiels using an Online too, you could look at: [MapSharper](http://www.mapshaper.org/); Do remeber to Zip up all the Files (*.shp, *.dbf, *.shx, *.prj) and import that into MapSharper. That way, you will get all attributes in the converted file.
+If you wish to convert these files using an Online too, you could look at: [MapSharper](http://www.mapshaper.org/); Do remeber to Zip up all the Files (*.shp, *.dbf, *.shx, *.prj) and import that into MapSharper. That way, you will get all attributes in the converted file.
 
 
 **License**
