@@ -23,4 +23,4 @@ If you wish to convert these files using an Online too, you could look at: [MapS
 
 **License**
 
-Unless explicitly stated, all datasets in this repository is shared under [CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. Please mention and link to relevant dataset in the attribution, eg. *[India boundaries](https://github.com/datameet/maps/blob/master/Country/india-composite.geojson) by [DataMeet India community](http://datameet.org/) ([CC BY 4.0](https://creativecommons.org/licenses/by-sa/4.0/))*
+Unless explicitly stated, all datasets in this repository is shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Please mention and link to relevant dataset in the attribution, eg. *[India boundaries](https://github.com/datameet/maps/blob/master/Country/india-composite.geojson) by [DataMeet India community](http://datameet.org/) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))*
