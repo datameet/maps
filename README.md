@@ -21,6 +21,6 @@ In case you want this data in GeoJSON or KML, or any one of the myrid Vector for
 If you wish to convert these files using an Online too, you could look at: [MapSharper](http://www.mapshaper.org/); Do remeber to Zip up all the Files (*.shp, *.dbf, *.shx, *.prj) and import that into MapSharper. That way, you will get all attributes in the converted file.
 
 
-**License**
+## Data License
 
 Unless explicitly stated, all datasets in this repository is shared under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. Please mention and link to relevant dataset in the attribution, eg. *[India boundaries](https://github.com/datameet/maps/blob/master/Country/india-composite.geojson) by [DataMeet India community](http://datameet.org/) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))*
